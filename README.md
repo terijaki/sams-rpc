@@ -1,15 +1,7 @@
-# sams-rpc
+# SAMS RPC
 
-To install dependencies:
+Interface for working with the SAMS-Server of the German Volleyball Association.
+http://wiki.sams-server.de/wiki/XML-Schnittstelle
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run src/index.ts
-```
-
-This project was created using `bun init` in bun v1.2.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Requirements
+- You need to bring your own API key.

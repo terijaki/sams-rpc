@@ -1,33 +1,40 @@
 {
 	"name": "sams-rpc",
 	"version": "0.0.1",
-	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
-	"type": "module",
+	"author": "terijaki",
+	"repository": {
+		"url": "https://github.com/terijaki/sams-rpc"
+	},
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
-	"types": "dist/index.d.ts",
-	"exports": {
-		"import": "./dist/index.mjs",
-		"require": "./dist/index.js"
-	},
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "bun build",
-		"prepublishOnly": "bun run build"
-	},
 	"devDependencies": {
 		"@types/bun": "latest"
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0"
 	},
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.js"
+	},
+	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
+	"files": [
+		"dist"
+	],
 	"keywords": [
 		"Volleyball",
 		"SAMS",
 		"XML"
 	],
-	"author": "terijaki",
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"build": "bun build src/index.ts --outdir dist",
+		"prepublishOnly": "bun run build"
+	},
+	"type": "module",
+	"types": "dist/index.d.ts",
+	"dependencies": {
+		"fast-xml-parser": "^5.2.0",
+		"zod": "^3.24.2"
+	}
 }

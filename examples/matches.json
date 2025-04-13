@@ -1,0 +1,7112 @@
+[
+	{
+		"id": 73105138,
+		"uuid": "b1bd9444-ebd8-4ff1-bb5d-e0957382ed9d",
+		"number": 1004,
+		"date": "05.10.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "61:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 200,
+		"netDuration": 77
+	},
+	{
+		"id": 73105137,
+		"uuid": "f5a26936-87e7-4fe9-bab3-4cea22e3fec2",
+		"number": 1003,
+		"date": "05.10.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540483,
+			"name": "Dreifelderhalle GS Zepernick",
+			"street": "Schönerlinder Straße 47",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal / OT Zepernick",
+			"note": "Höhe 7,5; Seite 4,0; Hinten 5,5"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "98:87",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 60,
+		"netDuration": 104
+	},
+	{
+		"id": 73105139,
+		"uuid": "3c71dd58-5abb-4fca-92ef-3865cb3df081",
+		"number": 1005,
+		"date": "05.10.2024",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "61:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 83
+	},
+	{
+		"id": 73105136,
+		"uuid": "fb131bf9-b64b-422b-9432-dd27f4ad74ec",
+		"number": 1002,
+		"date": "05.10.2024",
+		"time": "18:30",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "63:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 140,
+		"netDuration": 73
+	},
+	{
+		"id": 73105144,
+		"uuid": "8b54640d-7479-4d80-80b3-3fae568542ba",
+		"number": 1009,
+		"date": "12.10.2024",
+		"time": "14:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "76:64",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 59,
+		"netDuration": 77
+	},
+	{
+		"id": 73105141,
+		"uuid": "1e061ced-40be-425a-8307-00f52a9c6d31",
+		"number": 1006,
+		"date": "12.10.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 4764160,
+			"name": "147 | Anton-Saefkow-Halle",
+			"street": "Anton-Saefkow-Platz 5",
+			"extraField": "-",
+			"postalCode": 10369,
+			"city": "Lichtenberg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "89:97",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 80,
+		"netDuration": 117
+	},
+	{
+		"id": 73105143,
+		"uuid": "f167da6e-3e85-4e9a-ad3f-e92d2eac1762",
+		"number": 1008,
+		"date": "12.10.2024",
+		"time": "18:30",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 17968,
+			"name": "OSPA-Arena",
+			"street": "Tschaikowskistr. 45",
+			"extraField": "-",
+			"postalCode": 18069,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:56",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 90,
+		"netDuration": 101
+	},
+	{
+		"id": 73105145,
+		"uuid": "8b62aea9-6209-44c1-87cd-c6795d906369",
+		"number": 1010,
+		"date": "12.10.2024",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "109:93",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 112
+	},
+	{
+		"id": 73105150,
+		"uuid": "560f7fcd-0233-4d28-9bf9-eef71f0c02bc",
+		"number": 1014,
+		"date": "19.10.2024",
+		"time": "14:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "57:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 57,
+		"netDuration": 73
+	},
+	{
+		"id": 73105147,
+		"uuid": "39d343a6-f54a-4c17-b84a-a60dbe971ea5",
+		"number": 1011,
+		"date": "19.10.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "95:88",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 99
+	},
+	{
+		"id": 73105148,
+		"uuid": "6744adf7-9631-4b2a-8271-e7fafe603ec1",
+		"number": 1012,
+		"date": "19.10.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "59:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 150,
+		"netDuration": 72
+	},
+	{
+		"id": 73105149,
+		"uuid": "b6f319cd-326b-465e-ac6d-771b2b01667e",
+		"number": 1013,
+		"date": "19.10.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540483,
+			"name": "Dreifelderhalle GS Zepernick",
+			"street": "Schönerlinder Straße 47",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal / OT Zepernick",
+			"note": "Höhe 7,5; Seite 4,0; Hinten 5,5"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "49:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 45,
+		"netDuration": 68
+	},
+	{
+		"id": 73105151,
+		"uuid": "70f5a361-4c36-4043-b741-e397a638dc09",
+		"number": 1015,
+		"date": "19.10.2024",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "48:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 67
+	},
+	{
+		"id": 73105135,
+		"uuid": "9a187837-3d65-4ddf-bf1e-10bdabc6f5b5",
+		"number": 1001,
+		"date": "20.10.2024",
+		"time": "14:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:56",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 18,
+		"netDuration": 68
+	},
+	{
+		"id": 73105156,
+		"uuid": "a1c4feac-b39d-453e-b597-7c3d2cb4ffc7",
+		"number": 1019,
+		"date": "26.10.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "55:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 200,
+		"netDuration": 68
+	},
+	{
+		"id": 73105153,
+		"uuid": "61a5443b-eb01-4423-918a-656c44f6b359",
+		"number": 1016,
+		"date": "26.10.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 4764160,
+			"name": "147 | Anton-Saefkow-Halle",
+			"street": "Anton-Saefkow-Platz 5",
+			"extraField": "-",
+			"postalCode": 10369,
+			"city": "Lichtenberg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "108:93",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 68,
+		"netDuration": 144
+	},
+	{
+		"id": 73105157,
+		"uuid": "bb54a9f0-d7ea-4ffe-b157-97735c7d9456",
+		"number": 1020,
+		"date": "26.10.2024",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "77:96",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 45,
+		"netDuration": 90
+	},
+	{
+		"id": 73105154,
+		"uuid": "8884b94f-81ab-491d-b9e8-73ff1a979ace",
+		"number": 1017,
+		"date": "26.10.2024",
+		"time": "19:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "97:78",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 25,
+		"netDuration": 97
+	},
+	{
+		"id": 73105155,
+		"uuid": "0b64d0fe-c6c5-4def-b846-c54c4611dec8",
+		"number": 1018,
+		"date": "27.10.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 11625808,
+			"name": "Friedrich-Ludwig-Jahn Sportpark Warnemünde",
+			"street": "Parkstr. 45",
+			"extraField": "-",
+			"postalCode": 18119,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "101:103",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 112
+	},
+	{
+		"id": 73105159,
+		"uuid": "56a33db6-68dd-40b1-835f-9cd2fc0671cc",
+		"number": 1021,
+		"date": "02.11.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:51",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 34,
+		"netDuration": 62
+	},
+	{
+		"id": 73105162,
+		"uuid": "27ce8f07-4c6e-4821-b779-89df2f1b00b8",
+		"number": 1024,
+		"date": "02.11.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:59",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 49,
+		"netDuration": 75
+	},
+	{
+		"id": 73105161,
+		"uuid": "ba73556a-6763-4924-bc46-e2ae196867ae",
+		"number": 1023,
+		"date": "02.11.2024",
+		"time": "15:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 17968,
+			"name": "OSPA-Arena",
+			"street": "Tschaikowskistr. 45",
+			"extraField": "-",
+			"postalCode": 18069,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "99:96",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 113
+	},
+	{
+		"id": 73105160,
+		"uuid": "09de345f-2b29-42e5-a274-8a61cc0d0c73",
+		"number": 1022,
+		"date": "02.11.2024",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "94:80",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 85,
+		"netDuration": 94
+	},
+	{
+		"id": 73105163,
+		"uuid": "6504062a-c026-4d7d-b806-cb4262e5b34f",
+		"number": 1025,
+		"date": "02.11.2024",
+		"time": "19:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "81:100",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 120
+	},
+	{
+		"id": 73105165,
+		"uuid": "b1b430d9-373b-4fd9-87da-152a00717ab2",
+		"number": 1026,
+		"date": "16.11.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 27220576,
+			"name": "179 / Fritz-Reuter-Oberschule",
+			"street": "Prendener Str. Ecke Falkenberger Chaussee",
+			"extraField": "-",
+			"postalCode": 13059,
+			"city": "Berlin-Hohenschönhausen",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "116:109",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 25,
+		"netDuration": 109
+	},
+	{
+		"id": 73105166,
+		"uuid": "a14f177d-a7f2-4846-bf7c-e75fb4d308d3",
+		"number": 1027,
+		"date": "16.11.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:57",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 60,
+		"netDuration": 69
+	},
+	{
+		"id": 73105168,
+		"uuid": "072be29f-cbdb-4652-86a7-9ea67c42283e",
+		"number": 1029,
+		"date": "16.11.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:52",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 170,
+		"netDuration": 66
+	},
+	{
+		"id": 73105167,
+		"uuid": "f1c6a78e-3474-4288-9e02-a4a4c8c77a56",
+		"number": 1028,
+		"date": "16.11.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540483,
+			"name": "Dreifelderhalle GS Zepernick",
+			"street": "Schönerlinder Straße 47",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal / OT Zepernick",
+			"note": "Höhe 7,5; Seite 4,0; Hinten 5,5"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "94:112",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 108
+	},
+	{
+		"id": 73105169,
+		"uuid": "431bbe95-4b79-4dd4-a52f-13b79e4c59d1",
+		"number": 1030,
+		"date": "16.11.2024",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "107:102",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 125
+	},
+	{
+		"id": 73105171,
+		"uuid": "7455729e-52aa-4e20-be16-38c021db8cf0",
+		"number": 1031,
+		"date": "23.11.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "93:98",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 96
+	},
+	{
+		"id": 73105174,
+		"uuid": "2c6f152d-58b3-4391-b581-3670b5b247d6",
+		"number": 1034,
+		"date": "23.11.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:59",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 35,
+		"netDuration": 69
+	},
+	{
+		"id": 73105173,
+		"uuid": "42c4c066-81a2-4b8a-8e4a-05aa9c8486eb",
+		"number": 1033,
+		"date": "23.11.2024",
+		"time": "15:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 17968,
+			"name": "OSPA-Arena",
+			"street": "Tschaikowskistr. 45",
+			"extraField": "-",
+			"postalCode": 18069,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:61",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 79
+	},
+	{
+		"id": 73105175,
+		"uuid": "e5d2bb81-cafe-43e3-af8c-98a3144d5599",
+		"number": 1035,
+		"date": "23.11.2024",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "63:76",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 35,
+		"netDuration": 77
+	},
+	{
+		"id": 73105172,
+		"uuid": "c4085cd6-00d1-4c20-8c2f-71fb7e2f2717",
+		"number": 1032,
+		"date": "24.11.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "109:104",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 109
+	},
+	{
+		"id": 73105142,
+		"uuid": "9ed8eb97-d304-4f3c-90f9-23bd151e2819",
+		"number": 1007,
+		"date": "30.11.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "61:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 14,
+		"netDuration": 72
+	},
+	{
+		"id": 73105177,
+		"uuid": "bcefa894-7131-4c28-81ed-ef5f98f3f8b8",
+		"number": 1036,
+		"date": "07.12.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "109:103",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 56,
+		"netDuration": 106
+	},
+	{
+		"id": 73105180,
+		"uuid": "646460d4-b649-4285-9d2d-03da69bfe9d3",
+		"number": 1039,
+		"date": "07.12.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "79:96",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 120,
+		"netDuration": 98
+	},
+	{
+		"id": 73105179,
+		"uuid": "21dc34f4-b778-4d26-9767-9050109fc897",
+		"number": 1038,
+		"date": "07.12.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540483,
+			"name": "Dreifelderhalle GS Zepernick",
+			"street": "Schönerlinder Straße 47",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal / OT Zepernick",
+			"note": "Höhe 7,5; Seite 4,0; Hinten 5,5"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "97:109",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 112
+	},
+	{
+		"id": 73105178,
+		"uuid": "f7fb4264-ea42-41c0-b660-afb627093eb8",
+		"number": 1037,
+		"date": "07.12.2024",
+		"time": "18:30",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "98:74",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 150,
+		"netDuration": 84
+	},
+	{
+		"id": 73105181,
+		"uuid": "d707d3c2-46e4-451e-a8b4-35a276600e5b",
+		"number": 1040,
+		"date": "07.12.2024",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "96:78",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 105
+	},
+	{
+		"id": 73105186,
+		"uuid": "3a6157b8-168a-403c-9604-49adee5ae820",
+		"number": 1044,
+		"date": "14.12.2024",
+		"time": "12:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "85:97",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 39,
+		"netDuration": 99
+	},
+	{
+		"id": 73105183,
+		"uuid": "c92fab5c-5db5-40f7-a424-ac31e179c983",
+		"number": 1041,
+		"date": "14.12.2024",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 27220576,
+			"name": "179 / Fritz-Reuter-Oberschule",
+			"street": "Prendener Str. Ecke Falkenberger Chaussee",
+			"extraField": "-",
+			"postalCode": 13059,
+			"city": "Berlin-Hohenschönhausen",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:53",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 68
+	},
+	{
+		"id": 73105187,
+		"uuid": "95b09c1c-790c-4417-b561-41fcce98aea7",
+		"number": 1045,
+		"date": "14.12.2024",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "55:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 15,
+		"netDuration": 68
+	},
+	{
+		"id": 73105184,
+		"uuid": "74031d87-8c83-43a0-ac6e-ce7210111f2d",
+		"number": 1042,
+		"date": "15.12.2024",
+		"time": "13:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "91:84",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 84
+	},
+	{
+		"id": 73105185,
+		"uuid": "8c81ccd9-a23d-43ce-a8b6-372219f59199",
+		"number": 1043,
+		"date": "15.12.2024",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 11625808,
+			"name": "Friedrich-Ludwig-Jahn Sportpark Warnemünde",
+			"street": "Parkstr. 45",
+			"extraField": "-",
+			"postalCode": 18119,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "97:77",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 36,
+		"netDuration": 97
+	},
+	{
+		"id": 73105193,
+		"uuid": "9ef3a816-36ce-4020-a256-f4ef90f274bc",
+		"number": 1050,
+		"date": "11.01.2025",
+		"time": "12:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "87:93",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 29,
+		"netDuration": 91
+	},
+	{
+		"id": 73105191,
+		"uuid": "01617901-83dc-4c5a-82a2-b1c30a603387",
+		"number": 1048,
+		"date": "11.01.2025",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "96:99",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 25,
+		"netDuration": 112
+	},
+	{
+		"id": 73105189,
+		"uuid": "3a4ac303-f02e-463e-92ab-ab8d7d3c9bb5",
+		"number": 1046,
+		"date": "11.01.2025",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "98:69",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 92
+	},
+	{
+		"id": 73105192,
+		"uuid": "2c47b624-d69b-49da-8e6a-d5a1d1621e60",
+		"number": 1049,
+		"date": "12.01.2025",
+		"time": "13:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 4764160,
+			"name": "147 | Anton-Saefkow-Halle",
+			"street": "Anton-Saefkow-Platz 5",
+			"extraField": "-",
+			"postalCode": 10369,
+			"city": "Lichtenberg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "104:107",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 55,
+		"netDuration": 118
+	},
+	{
+		"id": 73105190,
+		"uuid": "76b92f4a-7782-45b8-9018-972f5848bc41",
+		"number": 1047,
+		"date": "12.01.2025",
+		"time": "14:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 11625808,
+			"name": "Friedrich-Ludwig-Jahn Sportpark Warnemünde",
+			"street": "Parkstr. 45",
+			"extraField": "-",
+			"postalCode": 18119,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "99:88",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 96
+	},
+	{
+		"id": 73105198,
+		"uuid": "ec66e895-1c4c-45b3-b8c7-b0517cf81e19",
+		"number": 1054,
+		"date": "18.01.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "98:103",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 110
+	},
+	{
+		"id": 73105199,
+		"uuid": "6f05948e-5852-4790-8c79-a5784d13605b",
+		"number": 1055,
+		"date": "18.01.2025",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "106:111",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 150,
+		"netDuration": 127
+	},
+	{
+		"id": 73105195,
+		"uuid": "7e8f473b-06ca-4011-aaf4-264d1738bea3",
+		"number": 1051,
+		"date": "18.01.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13868093,
+			"name": "7600 / Turnhalle der Grundschule Schönow",
+			"street": "Heidestr. 17",
+			"extraField": "-",
+			"postalCode": 16321,
+			"city": "Bernau",
+			"note": "OT Schönow"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "110:106",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 113
+	},
+	{
+		"id": 73105197,
+		"uuid": "d5177714-3c4b-40e6-8c17-dea7284b1aeb",
+		"number": 1053,
+		"date": "18.01.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "93:90",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 98
+	},
+	{
+		"id": 73105196,
+		"uuid": "7d987e31-01cd-45a0-8b7f-0721ffdfccd2",
+		"number": 1052,
+		"date": "18.01.2025",
+		"time": "18:30",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "99:111",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 150,
+		"netDuration": 110
+	},
+	{
+		"id": 73105217,
+		"uuid": "a1859464-065e-46cd-bea1-ff81c8548c3a",
+		"number": 1070,
+		"date": "25.01.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:56",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 20,
+		"netDuration": 66
+	},
+	{
+		"id": 73105201,
+		"uuid": "276ee308-a678-4c89-bbab-faf787ae2788",
+		"number": 1056,
+		"date": "25.01.2025",
+		"time": "17:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "93:97",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 200,
+		"netDuration": 103
+	},
+	{
+		"id": 73105202,
+		"uuid": "609e8bb5-3173-4197-be16-d9430454f6b7",
+		"number": 1057,
+		"date": "25.01.2025",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 4764160,
+			"name": "147 | Anton-Saefkow-Halle",
+			"street": "Anton-Saefkow-Platz 5",
+			"extraField": "-",
+			"postalCode": 10369,
+			"city": "Lichtenberg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "100:93",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 45,
+		"netDuration": 105
+	},
+	{
+		"id": 73105204,
+		"uuid": "4174d03e-174b-4cd3-a19e-63c09790d331",
+		"number": 1059,
+		"date": "25.01.2025",
+		"time": "18:30",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 17968,
+			"name": "OSPA-Arena",
+			"street": "Tschaikowskistr. 45",
+			"extraField": "-",
+			"postalCode": 18069,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "87:91",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 80,
+		"netDuration": 107
+	},
+	{
+		"id": 73105203,
+		"uuid": "3657fb01-457b-45c0-b0ae-76e2147d7728",
+		"number": 1058,
+		"date": "26.01.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "94:90",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 20,
+		"netDuration": 98
+	},
+	{
+		"id": 73105205,
+		"uuid": "7498952a-86a0-4207-a641-28f818374617",
+		"number": 1060,
+		"date": "26.01.2025",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:41",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 32,
+		"netDuration": 58
+	},
+	{
+		"id": 73105208,
+		"uuid": "f331ffdb-b7a2-42b7-ac34-c0ede05d8677",
+		"number": 1062,
+		"date": "01.02.2025",
+		"time": "13:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:56",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 32,
+		"netDuration": 69
+	},
+	{
+		"id": 73105209,
+		"uuid": "9387b9ab-8653-4335-8797-d440e335ee6f",
+		"number": 1063,
+		"date": "01.02.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "83:97",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 101
+	},
+	{
+		"id": 73105211,
+		"uuid": "2cc74fec-d6d6-4b05-8633-9f71a237d6df",
+		"number": 1065,
+		"date": "01.02.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "49:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 100,
+		"netDuration": 61
+	},
+	{
+		"id": 73105210,
+		"uuid": "0bd5b720-6f05-40cb-94bd-a8a9960dc261",
+		"number": 1064,
+		"date": "01.02.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540483,
+			"name": "Dreifelderhalle GS Zepernick",
+			"street": "Schönerlinder Straße 47",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal / OT Zepernick",
+			"note": "Höhe 7,5; Seite 4,0; Hinten 5,5"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "99:81",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 70,
+		"netDuration": 91
+	},
+	{
+		"id": 73105207,
+		"uuid": "194f7b8b-61fc-420f-8c4b-c2ceee4b7dd4",
+		"number": 1061,
+		"date": "01.02.2025",
+		"time": "19:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "50:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 69
+	},
+	{
+		"id": 73105214,
+		"uuid": "c6c3e3f9-5201-4871-aaca-0733bf1d3259",
+		"number": 1067,
+		"date": "15.02.2025",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "99:81",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 100,
+		"netDuration": 95
+	},
+	{
+		"id": 73105215,
+		"uuid": "89d251bc-2371-4a3c-a738-2b151f6c7a1e",
+		"number": 1068,
+		"date": "15.02.2025",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12540702,
+			"name": "Gustav-Falke-Str. 42",
+			"street": "Gustav-Falke-Str. 42",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "88:78",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 40,
+		"netDuration": 86
+	},
+	{
+		"id": 73105213,
+		"uuid": "c4b163e1-07e3-46be-bff4-b7011cb477d8",
+		"number": 1066,
+		"date": "15.02.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540507,
+			"name": "Schwanenhalle",
+			"street": "Dorfstraße 14f",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal OT Schwanebeck",
+			"note": "Höhe 7,5; Seite 4,0; Hinten 6,0"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "42:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 55
+	},
+	{
+		"id": 73105216,
+		"uuid": "da48cc4b-ddfb-43d3-8d00-70a16411f721",
+		"number": 1069,
+		"date": "15.02.2025",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 4764160,
+			"name": "147 | Anton-Saefkow-Halle",
+			"street": "Anton-Saefkow-Platz 5",
+			"extraField": "-",
+			"postalCode": 10369,
+			"city": "Lichtenberg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:43",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 60,
+		"netDuration": 57
+	},
+	{
+		"id": 73105220,
+		"uuid": "2405b096-9781-411a-af41-76e28c592207",
+		"number": 1072,
+		"date": "22.02.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "109:98",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 43,
+		"netDuration": 105
+	},
+	{
+		"id": 73105221,
+		"uuid": "c17f8e12-01e5-4ccb-baf4-824100de9c5e",
+		"number": 1073,
+		"date": "22.02.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "95:80",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 92,
+		"netDuration": 90
+	},
+	{
+		"id": 73105223,
+		"uuid": "051541a5-ac84-4e50-8a57-c6df76a31cc2",
+		"number": 1075,
+		"date": "22.02.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "98:88",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 67,
+		"netDuration": 103
+	},
+	{
+		"id": 73105222,
+		"uuid": "5b87c128-88cb-486b-a552-3608365347c4",
+		"number": 1074,
+		"date": "22.02.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "93:110",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 123,
+		"netDuration": 109
+	},
+	{
+		"id": 73105219,
+		"uuid": "4d6c1624-cfb5-4c26-b142-5149415c107e",
+		"number": 1071,
+		"date": "22.02.2025",
+		"time": "19:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 17968,
+			"name": "OSPA-Arena",
+			"street": "Tschaikowskistr. 45",
+			"extraField": "-",
+			"postalCode": 18069,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "106:98",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 60,
+		"netDuration": 110
+	},
+	{
+		"id": 73105232,
+		"uuid": "ae209457-982b-4911-8a88-3279623e237d",
+		"number": 1082,
+		"date": "01.03.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137397,
+			"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+			"name": "USV Potsdam",
+			"club": "USV Potsdam"
+		},
+		"team": [
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			},
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 24579,
+			"name": "4110 / SH Heinrich-Mann-Allee",
+			"street": "Johann-Jacob-Baeyer-Straße 5",
+			"extraField": "-",
+			"postalCode": 14473,
+			"city": "Potsdam",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "103:104",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 30,
+		"netDuration": 108
+	},
+	{
+		"id": 73105228,
+		"uuid": "5b23e759-fe26-481a-bdc0-d6ac98cded15",
+		"number": 1079,
+		"date": "08.03.2025",
+		"time": "16:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "77:66",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 150,
+		"netDuration": 77
+	},
+	{
+		"id": 73105229,
+		"uuid": "55a08794-71c7-4930-a507-888a9ec43ae0",
+		"number": 1080,
+		"date": "08.03.2025",
+		"time": "18:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13868091,
+			"name": "7450 / Schwanenhalle",
+			"street": "Dorfstr. 14f",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal",
+			"note": "OT Schwanebeck"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "108:103",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 45,
+		"netDuration": 174
+	},
+	{
+		"id": 73105225,
+		"uuid": "0f078cd4-b7c7-4e64-a77b-e0810c560ab4",
+		"number": 1076,
+		"date": "08.03.2025",
+		"time": "18:30",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "92:73",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 81
+	},
+	{
+		"id": 73105227,
+		"uuid": "db9bccdf-3c67-4ec4-bd55-62fe570f42a6",
+		"number": 1078,
+		"date": "08.03.2025",
+		"time": "18:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:53",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 76
+	},
+	{
+		"id": 73105226,
+		"uuid": "adbf86cb-5c48-44f5-b935-d13ed6fa17db",
+		"number": 1077,
+		"date": "09.03.2025",
+		"time": "13:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051596,
+			"name": "Sporthalle Barnim- Oberschule",
+			"street": "Ahrensfelder Chaussee 41",
+			"extraField": "-",
+			"postalCode": 13057,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "94:88",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 28,
+		"netDuration": 94
+	},
+	{
+		"id": 73105233,
+		"uuid": "cffdff0a-aef6-4c90-a3a8-e50c141554e5",
+		"number": 1083,
+		"date": "15.03.2025",
+		"time": "12:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137388,
+			"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+			"name": "BBSC Berlin 2",
+			"club": "BBSC e.V."
+		},
+		"team": [
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			},
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1106154,
+			"name": "SH Hämmerlingstraße",
+			"street": "Friedenstraße 1",
+			"extraField": "-",
+			"postalCode": 12555,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:55",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 49,
+		"netDuration": 105
+	},
+	{
+		"id": 73105234,
+		"uuid": "2ac017c4-7261-422c-86bc-abafa8ef029c",
+		"number": 1084,
+		"date": "15.03.2025",
+		"time": "15:30",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614473,
+			"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+			"name": "SV Warnemünde",
+			"club": "SV Warnemünde 1949 e. V."
+		},
+		"team": [
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			},
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 17968,
+			"name": "OSPA-Arena",
+			"street": "Tschaikowskistr. 45",
+			"extraField": "-",
+			"postalCode": 18069,
+			"city": "Rostock",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "96:80",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 170,
+		"netDuration": 94
+	},
+	{
+		"id": 73105231,
+		"uuid": "2bd79b0f-cb59-4b33-a71b-7d93cdc8a5e4",
+		"number": 1081,
+		"date": "15.03.2025",
+		"time": "18:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614359,
+			"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+			"name": "Berliner VV",
+			"club": "Berliner Volleyballverein Vorwärts e.V."
+		},
+		"team": [
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			},
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 4764160,
+			"name": "147 | Anton-Saefkow-Halle",
+			"street": "Anton-Saefkow-Platz 5",
+			"extraField": "-",
+			"postalCode": 10369,
+			"city": "Lichtenberg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "0:3",
+			"ballPoints": "63:75",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 67,
+		"netDuration": 71
+	},
+	{
+		"id": 73105235,
+		"uuid": "8fd794ba-a7c0-4dfd-ab1f-31ebedf90f41",
+		"number": 1085,
+		"date": "15.03.2025",
+		"time": "19:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137453,
+			"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+			"name": "Eimsbütteler TV 2",
+			"club": "Eimsbütteler Turnverband e.V."
+		},
+		"team": [
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			},
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 1140516,
+			"name": "ETV Sportzentrum Bundesstraße",
+			"street": "Bundesstr. 96",
+			"extraField": "-",
+			"postalCode": 20144,
+			"city": "Hamburg",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:1",
+			"ballPoints": "102:82",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 70,
+		"netDuration": 105
+	},
+	{
+		"id": 73105239,
+		"uuid": "c4bda945-fde6-43b5-82a9-adf1227d7565",
+		"number": 1088,
+		"date": "29.03.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137425,
+			"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+			"name": "SG Einheit Zepernick",
+			"club": "SG Einheit Zepernick"
+		},
+		"team": [
+			{
+				"id": 70137425,
+				"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
+				"name": "SG Einheit Zepernick",
+				"shortName": "SGE Zepernick",
+				"club": {
+					"name": "SG Einheit Zepernick",
+					"shortName": "EiZep"
+				}
+			},
+			{
+				"id": 72614473,
+				"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
+				"name": "SV Warnemünde",
+				"shortName": "Warnemünde",
+				"club": {
+					"name": "SV Warnemünde 1949 e. V.",
+					"shortName": ""
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13868091,
+			"name": "7450 / Schwanenhalle",
+			"street": "Dorfstr. 14f",
+			"extraField": "-",
+			"postalCode": 16341,
+			"city": "Panketal",
+			"note": "OT Schwanebeck"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "1:3",
+			"ballPoints": "83:96",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 22,
+		"netDuration": 98
+	},
+	{
+		"id": 73105237,
+		"uuid": "f97a4853-fcf3-48b8-8c9f-beaa7ebb50e9",
+		"number": 1086,
+		"date": "30.03.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137432,
+			"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+			"name": "Grün-Weiß Eimsbüttel",
+			"club": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V."
+		},
+		"team": [
+			{
+				"id": 70137432,
+				"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
+				"name": "Grün-Weiß Eimsbüttel",
+				"shortName": "GW Eimsbüttel",
+				"club": {
+					"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
+					"shortName": "GWE"
+				}
+			},
+			{
+				"id": 72614359,
+				"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
+				"name": "Berliner VV",
+				"shortName": "Berliner VV",
+				"club": {
+					"name": "Berliner Volleyballverein Vorwärts e.V.",
+					"shortName": "BVV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12942621,
+			"name": "STS Stellingen - Brehmweg (ZFH)",
+			"street": "Hagenbeckstr. 39 a",
+			"extraField": "neue Halle",
+			"postalCode": 22527,
+			"city": "Hamburg",
+			"note": "Zweifeldhalle"
+		},
+		"referees": {
+			"referee": [{}, {}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "116:119",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 132
+	},
+	{
+		"id": 73105238,
+		"uuid": "5a229851-5396-410b-8167-bb0e3786c0e6",
+		"number": 1087,
+		"date": "30.03.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 72614471,
+			"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+			"name": "1. VC Parchim",
+			"club": "1. VC Parchim"
+		},
+		"team": [
+			{
+				"id": 72614471,
+				"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
+				"name": "1. VC Parchim",
+				"shortName": "Parchim",
+				"club": {
+					"name": "1. VC Parchim",
+					"shortName": "VCP"
+				}
+			},
+			{
+				"id": 70137453,
+				"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
+				"name": "Eimsbütteler TV 2",
+				"shortName": "Eimsbüttel TV",
+				"club": {
+					"name": "Eimsbütteler Turnverband e.V.",
+					"shortName": "ETV"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 13867571,
+			"name": "Sporthalle Am Fischerdamm",
+			"street": "Am Fischerdamm 1",
+			"extraField": "-",
+			"postalCode": 19370,
+			"city": "Parchim",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:2",
+			"ballPoints": "94:103",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 150,
+		"netDuration": 109
+	},
+	{
+		"id": 73105240,
+		"uuid": "3c74d9ac-04aa-4c22-ac89-d092de1ea385",
+		"number": 1089,
+		"date": "30.03.2025",
+		"time": "15:00",
+		"delayPossible": true,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137447,
+			"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+			"name": "USV Halle Hurricanes",
+			"club": "Universitätssportverein Halle e.V."
+		},
+		"team": [
+			{
+				"id": 70137447,
+				"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
+				"name": "USV Halle Hurricanes",
+				"shortName": "USV Halle",
+				"club": {
+					"name": "Universitätssportverein Halle e.V.",
+					"shortName": "USV"
+				}
+			},
+			{
+				"id": 70137388,
+				"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
+				"name": "BBSC Berlin 2",
+				"shortName": "BBSC 2",
+				"club": {
+					"name": "BBSC e.V.",
+					"shortName": "BBSC"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 39540625,
+			"name": "Sporthalle Am Steg",
+			"street": "Lange Str. 18",
+			"extraField": "-",
+			"postalCode": 6110,
+			"city": "Halle",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 2,
+			"setPoints": "2:3",
+			"ballPoints": "107:110",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 50,
+		"netDuration": 111
+	},
+	{
+		"id": 73105241,
+		"uuid": "4924be60-4645-4c0d-b777-f163eb77ce49",
+		"number": 1090,
+		"date": "30.03.2025",
+		"time": "15:00",
+		"delayPossible": false,
+		"decidingMatch": false,
+		"indefinitelyRescheduled": false,
+		"gameReassessed": false,
+		"host": {
+			"id": 70137438,
+			"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+			"name": "SG Rot. Prenzlauer Berg",
+			"club": "Sportgemeinschaft Rotation Prenzlauer Berg e.V."
+		},
+		"team": [
+			{
+				"id": 70137438,
+				"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
+				"name": "SG Rot. Prenzlauer Berg",
+				"shortName": "Prenzlauer Berg",
+				"club": {
+					"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
+					"shortName": "RPB"
+				}
+			},
+			{
+				"id": 70137397,
+				"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
+				"name": "USV Potsdam",
+				"shortName": "USV Potsdam",
+				"club": {
+					"name": "USV Potsdam",
+					"shortName": "USVPd"
+				}
+			}
+		],
+		"matchSeries": {
+			"id": 70137358,
+			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
+			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
+			"name": "Dritte Liga Nord Frauen",
+			"shortName": "DLN F",
+			"type": "League",
+			"updated": "2025-04-13 00:20:41.089",
+			"structureUpdated": "2025-04-13 00:20:41.089",
+			"resultsUpdated": "2025-03-30 18:09:57.646",
+			"season": {
+				"name": "2024/25"
+			},
+			"hierarchy": {
+				"hierarchyLevel": 4
+			},
+			"fullHierarchy": {},
+			"association": {}
+		},
+		"location": {
+			"id": 12051593,
+			"name": "Sporthalle Sredzkistraße",
+			"street": "Sredzkistr. 8",
+			"extraField": "-",
+			"postalCode": 10435,
+			"city": "Berlin",
+			"note": "-"
+		},
+		"referees": {
+			"referee": [{}, {}]
+		},
+		"results": {
+			"winner": 1,
+			"setPoints": "3:0",
+			"ballPoints": "75:39",
+			"sets": {},
+			"verified": true
+		},
+		"spectators": 25,
+		"netDuration": 56
+	}
+]
