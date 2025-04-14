@@ -29,7 +29,10 @@ jobs:
         run: bun install
 
       - name: Run tests
-        run: bun run test
+        run: bun test
+        env:
+          SAMS_API_KEY: ${{ secrets.SAMS_API_KEY }}
+          SAMS_SERVER: ${{ secrets.SAMS_SERVER }}
 
       - name: Release
         env:
