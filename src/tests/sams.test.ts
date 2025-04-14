@@ -106,9 +106,9 @@ describe("Sportsclub", () => {
 	});
 });
 
-describe("Rankings", () => {
-	// this test can only run if the previous test was successful and the allSeasonId is available
-	if (allSeasonMatchSeriesId.length > 0) {
+// this test can only run if the previous test was successful and the allSeasonId is available
+if (allSeasonMatchSeriesId.length > 0) {
+	describe("Rankings", () => {
 		test("Test if the rankings RPC is working.", async () => {
 			// test value from previous test
 			expect(allSeasonMatchSeriesId).toBeString();
@@ -130,5 +130,5 @@ describe("Rankings", () => {
 				expect(data.ranking[0].team.id).toBeNumber();
 			}
 		});
-	}
-});
+	});
+}
