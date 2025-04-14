@@ -14,4 +14,6 @@ import { sportsclub } from "./sams/sportsclub";
 import { sportsclubList } from "./sams/sportsclub-list";
 import { teams } from "./sams/teams";
 
-export const sams = { matchSeries, matches, seasons, teams, rankings, sportsclubList, sportsclub };
+const sams = { matchSeries, matches, seasons, teams, rankings, sportsclubList, sportsclub };
+
+export default sams;

@@ -35,7 +35,7 @@ jobs:
           SAMS_SERVER: ${{ secrets.SAMS_SERVER }}
 
       - name: Build with tsup
-        run: bun run tsup
+        run: bun run build
 
       - name: Release
         env:
