@@ -26,7 +26,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "tsup",
-		"test": "bun test --env-file .env.local"
+		"test": "bun test --bail --env-file .env.local"
 	},
 	"type": "module",
 	"dependencies": {
