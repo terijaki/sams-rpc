@@ -88,12 +88,16 @@ describe("Sportsclub", () => {
 		if (typeof data.teams === "object") {
 			expect(data.teams).toBeObject();
 			if (typeof data.teams.team === "object") {
-				expect(data.teams.team[0]).toBeObject();
-				expect(data.teams.team[0]).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries", "allSeasonId"]);
-				expect(data.teams.team[0].matchSeries).toContainKeys(["allSeasonId"]);
+				// Normalize teams to always be an array, whether it's a single object or already an array
+				const teamsArray = Array.isArray(data.teams.team) ? data.teams.team : [data.teams.team];
+				const firstTeam = teamsArray[0];
+
+				expect(firstTeam).toBeObject();
+				expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries", "allSeasonId"]);
+				expect(firstTeam.matchSeries).toContainKeys(["allSeasonId"]);
 
 				// store the allSeasonId for later use
-				allSeasonMatchSeriesId = data.teams.team[0].matchSeries.allSeasonId;
+				allSeasonMatchSeriesId = firstTeam.matchSeries.allSeasonId;
 			}
 		} else if (typeof data.teams === "string") {
 			expect(data.teams).toBeString();

@@ -125,7 +125,7 @@ export const SportsclubSchema = z.object({
 	matchOperationCompany: MatchOperationCompanySchema,
 	teams: z.union([
 		z.object({
-			team: z.array(TeamSchema),
+			team: z.union([z.array(TeamSchema), TeamSchema]),
 		}),
 		z.string().optional(),
 	]),
