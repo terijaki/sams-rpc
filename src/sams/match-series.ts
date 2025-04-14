@@ -4,13 +4,13 @@ import { verifyCredentials } from "../utils/credentials";
 import { xmlParser } from "../utils/xml-parser";
 
 // Season schema
-export const SeasonSchema = z.object({
+const SeasonSchema = z.object({
 	id: z.number(),
 	uuid: z.string(),
 	name: z.string(),
 });
 // MatchSeries schema
-export const MatchSeriesSchema = z.object({
+const MatchSeriesSchema = z.object({
 	id: z.number(),
 	uuid: z.string(),
 	allSeasonId: z.string(),
@@ -24,11 +24,11 @@ export const MatchSeriesSchema = z.object({
 	hierarchy: z.unknown(), // Keep as unknown until structure is known
 });
 // MatchSeriesList schema
-export const MatchSeriesListSchema = z.object({
+const MatchSeriesListSchema = z.object({
 	matchSeries: z.array(MatchSeriesSchema),
 });
 // Root response schema
-export const MatchSeriesResponseSchema = z.object({
+const MatchSeriesResponseSchema = z.object({
 	// "?xml": z.string(),
 	matchSeriesList: MatchSeriesListSchema,
 });

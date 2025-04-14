@@ -182,5 +182,3 @@ export async function sportsclub(props: SportsclubProps): Promise<Sportsclub> {
 		throw error;
 	}
 }
-
-

@@ -15,9 +15,10 @@ jspm_packages/
 
 .eslintcache
 
-# Output of 'npm pack'
+# Output of 'npm pack' and build
 
 *.tgz
+dist/
 
 # dotenv environment variable files
 

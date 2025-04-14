@@ -19,7 +19,8 @@
 	},
 	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
 	"files": [
-		"dist"
+		"dist",
+		"README.md"
 	],
 	"keywords": [
 		"Volleyball",
@@ -29,7 +30,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "bun build src/index.ts --outdir dist",
-		"prepublishOnly": "bun run build"
+		"test": "bun test --env-file .env.local"
 	},
 	"type": "module",
 	"types": "dist/index.d.ts",
