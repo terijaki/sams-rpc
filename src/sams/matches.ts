@@ -157,5 +157,3 @@ export async function matches(props: MatchesProps): Promise<Match[]> {
 		throw error;
 	}
 }
-
-matches({ allSeasonMatchSeriesId: "42b97d58-e625-c49d-468c-8804db710db3" }).then((data) => Bun.write("./examples/matches.json", JSON.stringify(data, null, 2)));

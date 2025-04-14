@@ -170,7 +170,6 @@ export async function sportsclub(props: SportsclubProps): Promise<Sportsclub> {
 
 		// parse xml to json
 		const json: SportsclubResponse = xmlParser.parse(xmlData);
-		// Bun.write("./examples/sportsclub.json", JSON.stringify(json, null, 2));
 
 		// validate Json
 		const validatedJson: Sportsclub = SportsclubResponseSchema.parse(json).sportsclub;
