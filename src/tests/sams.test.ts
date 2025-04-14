@@ -93,7 +93,7 @@ describe("Sportsclub", () => {
 				const firstTeam = teamsArray[0];
 
 				expect(firstTeam).toBeObject();
-				expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries", "allSeasonId"]);
+				expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries"]);
 				expect(firstTeam.matchSeries).toContainKeys(["allSeasonId"]);
 
 				// store the allSeasonId for later use
