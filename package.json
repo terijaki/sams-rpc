@@ -1,6 +1,6 @@
 {
 	"name": "sams-rpc",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"author": "terijaki",
 	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
 	"repository": {
