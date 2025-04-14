@@ -30,7 +30,7 @@
 	"types": "dist/index.d.ts",
 	"release": {
 		"branches": [
-			"master",
+			"main",
 			"next"
 		]
 	},
