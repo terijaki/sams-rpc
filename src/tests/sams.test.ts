@@ -88,10 +88,7 @@ describe("Sportsclub", () => {
 		if (typeof data.teams === "object") {
 			expect(data.teams).toBeObject();
 			if (typeof data.teams.team === "object") {
-				// Normalize teams to always be an array, whether it's a single object or already an array
-				const teamsArray = Array.isArray(data.teams.team) ? data.teams.team : [data.teams.team];
-				const firstTeam = teamsArray[0];
-
+				const firstTeam = data.teams.team[0];
 				expect(firstTeam).toBeObject();
 				expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries"]);
 				expect(firstTeam.matchSeries).toContainKeys(["allSeasonId"]);
