@@ -1,6 +1,6 @@
 {
 	"name": "sams-rpc",
-	"version": "0.0.1",
+	"version": "1.0.2",
 	"author": "terijaki",
 	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
 	"repository": {
@@ -29,17 +29,12 @@
 		"test": "bun test --env-file .env.local"
 	},
 	"type": "module",
-	"release": {
-		"branches": [
-			"main",
-			"next"
-		]
-	},
 	"dependencies": {
 		"fast-xml-parser": "^5.2.0",
 		"zod": "^3.24.2"
 	},
 	"devDependencies": {
+		"@semantic-release/git": "^10.0.1",
 		"@types/bun": "latest",
 		"semantic-release": "^24.2.3",
 		"tsup": "^8.4.0"
