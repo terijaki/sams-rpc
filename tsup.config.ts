@@ -9,4 +9,5 @@ export default defineConfig({
 	clean: true,
 	sourcemap: true,
 	cjsInterop: true,
+    treeshake:true
 });
