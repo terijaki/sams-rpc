@@ -1,111 +1,24 @@
 import { z } from "zod";
-import type { SamsQuery } from "../types/servers";
+import { MatchSchema } from "../schemas";
+import type { SamsQuery } from "../types";
 import { verifyCredentials } from "../utils/credentials";
 import { xmlParser } from "../utils/xml-parser";
 
 // Define the Zod schemas
-const TeamInMatchSchema = z.object({
-	id: z.number().optional(),
-	uuid: z.string().optional(),
-	name: z.string().optional(),
-	shortName: z.string().optional(),
-	club: z.object({
-		name: z.string().optional(),
-		shortName: z.string().optional(),
-	}),
-});
-
-const HostSchema = z.object({
-	id: z.number(),
-	uuid: z.string(),
-	name: z.string(),
-	club: z.string(),
-});
-
-const LocationSchema = z.object({
-	id: z.number(),
-	name: z.string(),
-	street: z.string(),
-	extraField: z.string(),
-	postalCode: z.union([z.number(), z.string()]),
-	city: z.string(),
-	note: z.string(),
-});
-
-const MatchSeriesSchema = z.object({
-	id: z.number(),
-	uuid: z.string(),
-	allSeasonId: z.string(),
-	name: z.string(),
-	shortName: z.string(),
-	type: z.string(),
-	updated: z.string(),
-	structureUpdated: z.string(),
-	resultsUpdated: z.string(),
-	season: z.object({
-		name: z.string(),
-	}),
-	hierarchy: z
-		.object({
-			hierarchyLevel: z.number(),
-		})
-		.optional(),
-	fullHierarchy: z.object({}).optional(),
-	association: z.object({}).optional(),
-});
-
-const ResultsSchema = z.object({
-	winner: z.number(),
-	setPoints: z.string(),
-	ballPoints: z.string(),
-	sets: z.object({}).optional(),
-	verified: z.boolean(),
-});
-
-const MatchSchema = z.object({
-	id: z.number(),
-	uuid: z.string(),
-	number: z.number(),
-	date: z.string(),
-	time: z.string(),
-	delayPossible: z.boolean(),
-	decidingMatch: z.boolean(),
-	indefinitelyRescheduled: z.boolean(),
-	gameReassessed: z.boolean(),
-	host: HostSchema,
-	team: z.array(TeamInMatchSchema),
-	matchSeries: MatchSeriesSchema,
-	location: LocationSchema,
-	referees: z.object({
-		referee: z.array(z.object({})).optional(),
-	}),
-	results: ResultsSchema,
-	spectators: z.number(),
-	netDuration: z.number(),
-});
-
-const MatchesSchema = z.object({
-	match: z.array(MatchSchema),
-});
 
 const MatchesResponseSchema = z.object({
-	matches: MatchesSchema,
+	matches: z.object({
+		match: z.array(MatchSchema),
+	}),
 });
 
 // Infer types from Zod schemas
-type TeamInMatch = z.infer<typeof TeamInMatchSchema>;
-type Host = z.infer<typeof HostSchema>;
-type Location = z.infer<typeof LocationSchema>;
-type MatchSeries = z.infer<typeof MatchSeriesSchema>;
-type Results = z.infer<typeof ResultsSchema>;
-type Match = z.infer<typeof MatchSchema>;
-export type Matches = z.infer<typeof MatchesSchema>;
+export type Match = z.infer<typeof MatchSchema>;
 type MatchesResponse = z.infer<typeof MatchesResponseSchema>;
 
 const DatePropSchema = z.string().refine((value) => /^\d{2}\.\d{2}\.\d{4}$/.test(value) || /^\d{4}-\d{2}-\d{2}$/.test(value), {
 	message: "Date must be in 'tt.mm.jjjj' or 'jjjj-mm-tt' format",
 });
-
 // query function
 type MatchesProps = SamsQuery &
 	({ matchSeriesId: string | number; allSeasonMatchSeriesId?: never } | { allSeasonMatchSeriesId: string; matchSeriesId?: never }) & {

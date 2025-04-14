@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { SamsQuery } from "../types/servers";
+import type { SamsQuery } from "../types";
 import { verifyCredentials } from "../utils/credentials";
 import { xmlParser } from "../utils/xml-parser";
 

@@ -5,7 +5,9 @@ http://wiki.sams-server.de/wiki/XML-Schnittstelle
 
 The SAMS server only offers XML responses, no JSON. It currently also lacks documentation of the response structure.
 
-This package fixes both aspects. It makes the fetch call to the server, parses the XML into **JSON** and returns the value to you. It comes with **TypeScript definitions** and **[Zod validation schemas](https://zod.dev)**, so that you can validate the response before using it across your app.
+This package fixes both aspects. It makes the fetch call to the server, parses the XML into **JSON**, validates the data and then returns the data to you. It comes with **TypeScript definitions** and **[Zod schemas](https://zod.dev)** for you to use across your app.
+
+`fetch > parse > validate > return`
 
 ## Pre-Requisites
 
@@ -69,6 +71,7 @@ const ourClub = await sams.sportsclub({ sportsclubId: 65036648 });
 // use the team array
 const ourTeams = ourClub.teams;
 ```
+
 Knowing the match series ID and the team ID, we can use it in further calls. For example to get the team's ranking or upcoming scheduled matches.
 
 See [example responses](https://github.com/terijaki/sams-rpc/tree/main/examples)

@@ -1,41 +1,19 @@
 import { z } from "zod";
-import type { SamsQuery } from "../types/servers";
+import { MatchSeriesSchema } from "../schemas";
+import type { SamsQuery } from "../types";
 import { verifyCredentials } from "../utils/credentials";
 import { xmlParser } from "../utils/xml-parser";
 
-// Season schema
-const SeasonSchema = z.object({
-	id: z.number(),
-	uuid: z.string(),
-	name: z.string(),
-});
-// MatchSeries schema
-const MatchSeriesSchema = z.object({
-	id: z.number(),
-	uuid: z.string(),
-	allSeasonId: z.string(),
-	name: z.string(),
-	shortName: z.string(),
-	type: z.string(),
-	updated: z.string(),
-	structureUpdated: z.string(),
-	resultsUpdated: z.string(),
-	season: SeasonSchema,
-	hierarchy: z.unknown(), // Keep as unknown until structure is known
-});
-// MatchSeriesList schema
+// Schemas
 const MatchSeriesListSchema = z.object({
 	matchSeries: z.array(MatchSeriesSchema),
 });
-// Root response schema
 const MatchSeriesResponseSchema = z.object({
-	// "?xml": z.string(),
 	matchSeriesList: MatchSeriesListSchema,
 });
+
 // Types derived from schemas
-type Season = z.infer<typeof SeasonSchema>;
 export type MatchSeries = z.infer<typeof MatchSeriesSchema>;
-type MatchSeriesList = z.infer<typeof MatchSeriesListSchema>;
 type MatchSeriesResponse = z.infer<typeof MatchSeriesResponseSchema>;
 
 // query function

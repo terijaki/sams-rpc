@@ -1,4 +1,4 @@
-import type { SamsServers } from "../enums";
+import type { SamsServers } from "./enums";
 
 export type SamsQuery = {
 	apiKey?: string;
