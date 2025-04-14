@@ -34,6 +34,9 @@ jobs:
           SAMS_API_KEY: ${{ secrets.SAMS_API_KEY }}
           SAMS_SERVER: ${{ secrets.SAMS_SERVER }}
 
+      - name: Build with tsup
+        run: bun run tsup
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
