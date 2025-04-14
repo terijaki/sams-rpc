@@ -2,22 +2,16 @@
 	"name": "sams-rpc",
 	"version": "0.0.1",
 	"author": "terijaki",
+	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
 	"repository": {
 		"url": "https://github.com/terijaki/sams-rpc"
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
-	"devDependencies": {
-		"@types/bun": "latest"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	},
 	"exports": {
 		"import": "./dist/index.mjs",
 		"require": "./dist/index.js"
 	},
-	"description": "Type-safe RPC for interacting with the SAMS-Server XML API.",
 	"files": [
 		"dist",
 		"README.md"
@@ -29,13 +23,27 @@
 	],
 	"license": "MIT",
 	"scripts": {
-		"build": "bun build src/index.ts --outdir dist",
+		"build": "tsup",
 		"test": "bun test --env-file .env.local"
 	},
 	"type": "module",
 	"types": "dist/index.d.ts",
+	"release": {
+		"branches": [
+			"master",
+			"next"
+		]
+	},
 	"dependencies": {
 		"fast-xml-parser": "^5.2.0",
 		"zod": "^3.24.2"
+	},
+	"devDependencies": {
+		"tsup": "^8.4.0",
+		"@types/bun": "latest",
+		"semantic-release": "^24.2.3"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
 	}
 }

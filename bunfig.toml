@@ -1,6 +1,0 @@
-[entrypoints]
-# Entry points for the build command
-main = "src/index.ts"
-
-[output]
-dir = "dist"
