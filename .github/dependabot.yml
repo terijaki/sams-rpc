@@ -5,7 +5,27 @@
 
 version: 2
 updates:
-  - package-ecosystem: "bun" 
-    directory: "/" # Location of package manifests
+  # Configuration for npm registry packages (works with bun, npm, or yarn)
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "quarterly"  # Changed from monthly to quarterly
+    # Group all npm dependencies together
+    groups:
+      npm-dependencies:
+        patterns:
+          - "*"
+
+  # Configuration for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "quarterly"  # Changed from monthly to quarterly
+    # Group all GitHub Actions together
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+          
+  # If you use other package managers, you can add them following the same pattern
+  # For example, for pip (Python), maven (Java), etc.
