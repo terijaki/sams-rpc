@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { RankingSchema, RankingsSchemaContent } from "../schemas";
+import { type RankingSchema, RankingsSchemaContent } from "../schemas";
 import type { SamsQuery } from "../types";
 import { verifyCredentials } from "../utils/credentials";
 import { xmlParser } from "../utils/xml-parser";

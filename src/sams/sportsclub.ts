@@ -29,6 +29,7 @@ export async function sportsclub(props: SportsclubProps): Promise<Sportsclub> {
 		// fetch remove data
 		const api = await fetch(`${serverUrl}/xml/sportsclub.xhtml?apiKey=${apiKey}${requiredParams}`);
 		const xmlData = await api.text();
+		console.warn("XML Data:", xmlData);
 
 		// check if the resonse includes an error
 		if (xmlData.includes("<error>")) throw "Error fetching data from SAMS server.";
@@ -36,8 +37,14 @@ export async function sportsclub(props: SportsclubProps): Promise<Sportsclub> {
 		// parse xml to json
 		const json: SportsclubResponse = xmlParser.parse(xmlData);
 
+		// replace key values which are ""-strings with null
+		const jsonWithNull = JSON.parse(JSON.stringify(json, (key, value) => {
+			if (value === "") return null;
+			return value;
+		}));
+
 		// validate Json
-		const validatedJson: Sportsclub = SportsclubResponseSchema.parse(json).sportsclub;
+		const validatedJson: Sportsclub = SportsclubResponseSchema.parse(jsonWithNull).sportsclub;
 
 		// return json
 		return validatedJson;

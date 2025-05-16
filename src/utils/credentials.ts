@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { SamsServers } from "../enums";
+import type { SamsServers } from "../enums";
 
 const ServerSchema = z.string().url();
 

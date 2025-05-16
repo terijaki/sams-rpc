@@ -1,15 +1,15 @@
 import { z } from "zod";
 
 export const LogoSchema = z.object({
-	url: z.string(),
-	filename: z.string().optional(),
-	createDate: z.string().optional(),
+	url: z.string().nullable(),
+	filename: z.string().optional().nullable(),
+	createDate: z.string().optional().nullable(),
 });
 
 export const HierarchySchema = z.object({
 	id: z.number(),
 	name: z.string(),
-	shortName: z.string().optional(),
+	shortName: z.string().optional().nullable(),
 	hierarchyLevel: z.number(),
 });
 
@@ -25,34 +25,34 @@ export const SeasonSchema = z.object({
 
 export const AssociationSchema = z.object({
 	name: z.string(),
-	shortName: z.string().optional(),
+	shortName: z.string().optional().nullable(),
 });
 
 export const AddressSchema = z.object({
-	postbox: z.string().optional(),
-	street: z.string().optional(),
-	extraField: z.string().optional(),
-	postcode: z.union([z.string(), z.number()]).optional(),
-	city: z.string().optional(),
-	region: z.string().optional(),
-	country: z.string().optional(),
+	postbox: z.string().nullable(),
+	street: z.string().nullable(),
+	extraField: z.string().nullable(),
+	postcode: z.union([z.string(), z.number()]).nullable(),
+	city: z.string().nullable(),
+	region: z.string().nullable(),
+	country: z.string().nullable(),
 });
 
 export const SimpleLocationSchema = z.object({
-	id: z.union([z.number(), z.string()]),
-	name: z.string(),
-	address: AddressSchema.optional(),
-	homepage: z.string().optional(),
+	id: z.union([z.number(), z.string()]).nullable(),
+	name: z.string().nullable(),
+	address: AddressSchema.nullable(),
+	homepage: z.string().nullable(),
 });
 
 export const LocationSchema = z.object({
 	id: z.number(),
-	name: z.string().optional(),
-	street: z.string().optional(),
-	extraField: z.string().optional(),
+	name: z.string().nullable(),
+	street: z.string().nullable(),
+	extraField: z.string().nullable(),
 	postalCode: z.union([z.number(), z.string()]),
 	city: z.string(),
-	note: z.string().optional(),
+	note: z.string().nullable(),
 });
 
 export const MatchSeriesSchema = z.object({
@@ -109,31 +109,26 @@ export const SimpleTeamSchema = z.object({
 });
 
 export const MatchOperationCompanySchema = z.object({
-	id: z.string(),
-	name: z.string(),
+	id: z.string().nullable(),
+	name: z.string().nullable(),
 	address: AddressSchema,
-	homepage: z.string(),
+	homepage: z.string().nullable(),
 });
 
 export const SportsclubSchema = z.object({
 	id: z.number(),
 	name: z.string(),
-	logo: LogoSchema,
+	logo: LogoSchema.nullable(),
 	lsbNumber: z.union([z.string(), z.number()]).optional(),
-	internalSportsclubId: z.union([z.string(), z.number()]).optional(),
+	internalSportsclubId: z.union([z.string(), z.number()]).optional().nullable(),
 	association: AssociationSchema.optional(),
 	matchOperationCompany: MatchOperationCompanySchema,
-	teams: z.union([
-		z.object({
-			team: z.array(TeamSchema),
-		}),
-		z.string().optional(),
-	]),
+	teams: z.object({ team: z.array(TeamSchema) }).nullable(),
 	locations: z
 		.object({
-			main: SimpleLocationSchema.optional(),
+			main: SimpleLocationSchema.optional().nullable(),
 		})
-		.optional(),
+		.optional().nullable(),
 });
 
 export const SimpleSportsclubSchema = z.object({

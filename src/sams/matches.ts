@@ -46,7 +46,7 @@ export async function matches(props: MatchesProps): Promise<Match[]> {
 		if (props?.teamId) optionalParams += `&teamId=${props.teamId}`;
 		if (before) optionalParams += `&before=${before}`;
 		if (after) optionalParams += `&after=${after}`;
-		if (props?.past) optionalParams += `&past=true`;
+		if (props?.past) optionalParams += "&past=true";
 		if (props?.future) optionalParams += `&future=true`;
 		if (props?.limit) optionalParams += `&limit=${props.limit}`;
 

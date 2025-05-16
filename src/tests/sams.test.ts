@@ -1,14 +1,14 @@
 import { describe, expect, test } from "bun:test";
-import { sams, type SamsMatchSeries, type SamsSeason, type SamsSimpleSportsClub } from "..";
+import { sams, type MatchSeries, type Season, type SimpleSportsClub } from "..";
 
 // variables to use across different tests
-let matchSeries: SamsMatchSeries[] = [];
-let seasonId: number = 0;
-let seasosn: SamsSeason[];
-let sportsclubList: SamsSimpleSportsClub[] = [];
-let sportsclubId: SamsSimpleSportsClub["id"] = 0;
-let sportsclubName: SamsSimpleSportsClub["name"] = "";
-let allSeasonMatchSeriesId: SamsMatchSeries["allSeasonId"] = "";
+let matchSeries: MatchSeries[] = [];
+let seasonId = 0;
+let seasosn: Season[];
+let sportsclubList: SimpleSportsClub[] = [];
+let sportsclubId: SimpleSportsClub["id"] = 0;
+let sportsclubName: SimpleSportsClub["name"] = "";
+let allSeasonMatchSeriesId: MatchSeries["allSeasonId"] = "";
 
 describe("Match Series", () => {
 	test("Test if the match series RPC is working.", async () => {
@@ -84,21 +84,18 @@ describe("Sportsclub", () => {
 		expect(data.id).toBe(sportsclubId);
 		expect(data.name).toBe(sportsclubName);
 
-		// teams can be either a (empty) string, a single team object or a team array
-		if (typeof data.teams === "object") {
+		// teams can be either null or a team array
+		 if (!data.teams) {
+			expect(data.teams).toBeNull();
+		} else {
 			expect(data.teams).toBeObject();
-			if (typeof data.teams.team === "object") {
-				const firstTeam = data.teams.team[0];
+			expect(data.teams.team).toBeArray();
+			const firstTeam = data.teams.team[0];
 				expect(firstTeam).toBeObject();
 				expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries"]);
 				expect(firstTeam.matchSeries).toContainKeys(["allSeasonId"]);
-
 				// store the allSeasonId for later use
 				allSeasonMatchSeriesId = firstTeam.matchSeries.allSeasonId;
-			}
-		} else if (typeof data.teams === "string") {
-			expect(data.teams).toBeString();
-			expect(data.teams).toHaveLength(0); // verfies the empty string
 		}
 	});
 });
