@@ -53,7 +53,7 @@ export async function matches(props: MatchesProps): Promise<Match[]> {
 		if (before) optionalParams += `&before=${before}`;
 		if (after) optionalParams += `&after=${after}`;
 		if (props?.past) optionalParams += "&past=true";
-		if (props?.future) optionalParams += `&future=true`;
+		if (props?.future) optionalParams += "&future=true";
 		if (props?.limit) optionalParams += `&limit=${props.limit}`;
 
 		// fetch remove data
@@ -67,7 +67,7 @@ export async function matches(props: MatchesProps): Promise<Match[]> {
 		const json: MatchesResponse = xmlParser.parse(xmlData);
 
 		// validate Json
-		const validatedJson: Match[] = MatchesResponseSchema.parse(json).matches.match;
+		const validatedJson: Match[] = MatchesResponseSchema.parse(json).matches.match || [];
 
 		// return matches array
 		return validatedJson;

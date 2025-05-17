@@ -7,10 +7,10 @@ export const LogoSchema = z.object({
 });
 
 export const HierarchySchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	name: z.string(),
 	shortName: z.string().optional().nullable(),
-	hierarchyLevel: z.number(),
+	hierarchyLevel: z.number({ coerce: true }),
 });
 
 export const FullHierarchySchema = z.object({
@@ -18,7 +18,7 @@ export const FullHierarchySchema = z.object({
 });
 
 export const SeasonSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	uuid: z.string(),
 	name: z.string(),
 });
@@ -32,31 +32,31 @@ export const AddressSchema = z.object({
 	postbox: z.string().nullable(),
 	street: z.string().nullable(),
 	extraField: z.string().nullable(),
-	postcode: z.union([z.string(), z.number()]).nullable(),
+	postcode: z.union([z.string(), z.number({ coerce: true })]).nullable(),
 	city: z.string().nullable(),
 	region: z.string().nullable(),
 	country: z.string().nullable(),
 });
 
 export const SimpleLocationSchema = z.object({
-	id: z.union([z.number(), z.string()]).nullable(),
+	id: z.union([z.number({ coerce: true }), z.string()]).nullable(),
 	name: z.string().nullable(),
 	address: AddressSchema.nullable(),
 	homepage: z.string().nullable(),
 });
 
 export const LocationSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	name: z.string().nullable(),
 	street: z.string().nullable(),
 	extraField: z.string().nullable(),
-	postalCode: z.union([z.number(), z.string()]),
+	postalCode: z.union([z.number({ coerce: true }), z.string()]),
 	city: z.string(),
 	note: z.string().nullable(),
 });
 
 export const MatchSeriesSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	uuid: z.string(),
 	allSeasonId: z.string(),
 	name: z.string(),
@@ -72,17 +72,17 @@ export const MatchSeriesSchema = z.object({
 });
 export const ClubSchema = z.object({
 	name: z.string(),
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	shortName: z.string().nullable(),
 	logo: LogoSchema.optional().nullable(),
 	www: z.string().optional().nullable(),
 	wwwDepartment: z.string().optional().nullable(),
 });
 export const TeamSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	uuid: z.string(),
-	seasonTeamId: z.number().nullable(),
-	placeCipher: z.number().nullable(),
+	seasonTeamId: z.number({ coerce: true }).nullable(),
+	placeCipher: z.number({ coerce: true }).nullable(),
 	name: z.string(),
 	shortName: z.string().optional().nullable(),
 	clubCode: z.string().nullable(),
@@ -97,7 +97,7 @@ export const TeamSchema = z.object({
 });
 
 export const SimpleTeamSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	uuid: z.string(),
 	name: z.string(),
 	shortName: z.string().optional().nullable(),
@@ -116,11 +116,17 @@ export const MatchOperationCompanySchema = z.object({
 });
 
 export const SportsclubSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	name: z.string(),
 	logo: LogoSchema.nullable(),
-	lsbNumber: z.union([z.string(), z.number()]).optional().nullable(),
-	internalSportsclubId: z.union([z.string(), z.number()]).optional().nullable(),
+	lsbNumber: z
+		.union([z.string(), z.number({ coerce: true })])
+		.optional()
+		.nullable(),
+	internalSportsclubId: z
+		.union([z.string(), z.number({ coerce: true })])
+		.optional()
+		.nullable(),
 	association: AssociationSchema.optional(),
 	matchOperationCompany: MatchOperationCompanySchema,
 	teams: z.object({ team: z.array(TeamSchema) }).nullable(),
@@ -133,13 +139,16 @@ export const SportsclubSchema = z.object({
 });
 
 export const SimpleSportsclubSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	name: z.string(),
-	lsbNumber: z.union([z.string(), z.number()]).optional().nullable(),
-	internalSportsclubId: z.union([z.string(), z.number()]).optional(),
+	lsbNumber: z
+		.union([z.string(), z.number({ coerce: true })])
+		.optional()
+		.nullable(),
+	internalSportsclubId: z.union([z.string(), z.number({ coerce: true })]).optional(),
 	association: z
 		.object({
-			id: z.union([z.string(), z.number()]).optional(),
+			id: z.union([z.string(), z.number({ coerce: true })]).optional(),
 			name: z.string().optional(),
 		})
 		.optional(),
@@ -147,20 +156,20 @@ export const SimpleSportsclubSchema = z.object({
 
 export const RankingSchema = z.object({
 	team: SimpleTeamSchema,
-	place: z.number().optional().nullable(),
-	matchesPlayed: z.number().optional().nullable(),
-	wins: z.number().optional().nullable(),
-	losses: z.number().optional().nullable(),
-	points: z.number().optional().nullable(),
+	place: z.number({ coerce: true }).optional().nullable(),
+	matchesPlayed: z.number({ coerce: true }).optional().nullable(),
+	wins: z.number({ coerce: true }).optional().nullable(),
+	losses: z.number({ coerce: true }).optional().nullable(),
+	points: z.number({ coerce: true }).optional().nullable(),
 	setPoints: z.string().optional().nullable(),
-	setWinScore: z.number().optional().nullable(),
-	setLoseScore: z.number().optional().nullable(),
-	setPointDifference: z.number().optional().nullable(),
+	setWinScore: z.number({ coerce: true }).optional().nullable(),
+	setLoseScore: z.number({ coerce: true }).optional().nullable(),
+	setPointDifference: z.number({ coerce: true }).optional().nullable(),
 	setQuotient: z.string().optional().nullable(),
 	ballPoints: z.string().optional().nullable(),
-	ballWinScore: z.number().optional().nullable(),
-	ballLoseScore: z.number().optional().nullable(),
-	ballPointDifference: z.number().optional().nullable(),
+	ballWinScore: z.number({ coerce: true }).optional().nullable(),
+	ballLoseScore: z.number({ coerce: true }).optional().nullable(),
+	ballPointDifference: z.number({ coerce: true }).optional().nullable(),
 	ballQuotient: z.string().optional().nullable(),
 	resultTypes: z
 		.array(
@@ -170,7 +179,7 @@ export const RankingSchema = z.object({
 					.regex(/^(\d+):(\d+)$/)
 					.optional()
 					.nullable(),
-				count: z.number().optional().nullable(),
+				count: z.number({ coerce: true }).optional().nullable(),
 			}),
 		)
 		.optional()
@@ -183,14 +192,14 @@ export const RankingsSchemaContent = z.object({
 });
 
 export const HostSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	uuid: z.string(),
 	name: z.string(),
 	club: z.string().nullable(),
 });
 
 export const ResultsSchema = z.object({
-	winner: z.number(),
+	winner: z.number({ coerce: true }),
 	setPoints: z.string(),
 	ballPoints: z.string(),
 	sets: z.object({}).optional(),
@@ -198,9 +207,9 @@ export const ResultsSchema = z.object({
 });
 
 export const MatchSchema = z.object({
-	id: z.number(),
+	id: z.number({ coerce: true }),
 	uuid: z.string(),
-	number: z.number(),
+	number: z.number({ coerce: true }),
 	date: z.string(),
 	time: z.string(),
 	delayPossible: z.boolean(),
@@ -214,5 +223,5 @@ export const MatchSchema = z.object({
 	referees: z.any().optional().nullable(),
 	results: ResultsSchema,
 	spectators: z.number({ coerce: true }).optional().nullable(),
-	netDuration: z.number(),
+	netDuration: z.number({ coerce: true }),
 });
