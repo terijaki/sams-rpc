@@ -1,7 +1,8 @@
 ---
-title: Monthly Test Failure - {{ date | date('YYYY-MM-DD') }}
-labels: bug, automated-issue
-assignees: ''
+name: Test Failure Report
+title: "Monthly Test Failure - ${{ format(github.event.timestamp, 'YYYY-MM-DD') }}"
+labels: ["bug", "test-failure"]
+assignees: []
 ---
 
 ## ⚠️ Monthly Tests Failed
