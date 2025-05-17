@@ -1,0 +1,51 @@
+name: Monthly Test Check
+
+on:
+  schedule:
+    # Run on the third day of every month at 03:03 UTC
+    - cron: "3 3 3 * *"
+  workflow_dispatch: # Allow manual triggering of the workflow
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run tests
+        id: run-tests
+        # Save test output to a file and check for failures
+        # Run tests and save output
+        # Check for test failure indicators
+        run: |
+          bun run test > test_output.txt 2>&1 || true
+          if grep -E "fail|error|assertion|exception" test_output.txt; then
+            echo "Tests have failed or detected errors"
+            echo "TESTS_FAILED=true" >> $GITHUB_ENV
+            cat test_output.txt
+            exit 0
+          else
+            echo "All tests passed"
+            echo "TESTS_FAILED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Create issue if tests fail
+        if: env.TESTS_FAILED == 'true'
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TEST_DATE: ${{ github.event.repository.updated_at }}
+          WORKFLOW_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          filename: .github/ISSUE_TEMPLATE/test-failure.md
+          update_existing: false
