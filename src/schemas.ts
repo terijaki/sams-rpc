@@ -100,11 +100,11 @@ export const SimpleTeamSchema = z.object({
 	id: z.number(),
 	uuid: z.string(),
 	name: z.string(),
-	shortName: z.string(),
-	clubCode: z.string(),
+	shortName: z.string().nullable(),
+	clubCode: z.string().nullable(),
 	club: z.object({
 		name: z.string().optional(),
-		shortName: z.string().optional(),
+		shortName: z.string().optional().nullable(),
 	}),
 });
 
