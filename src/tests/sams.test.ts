@@ -56,7 +56,9 @@ describe("Sportsclub List", () => {
 
 		// pick a club at random. this makes the test fuzzy.
 		const randomArrayEntry = Math.floor(Math.random() * data.length);
-		const randomClub = data[randomArrayEntry];
+		// const randomClub = data[randomArrayEntry];
+		const randomClub = data[randomArrayEntry]
+		console.log(`Random Club used for testing: ${randomClub.name} (${randomClub.association?.name})`);
 
 		expect(randomClub).toBeObject();
 		expect(randomClub).toContainKeys(["id", "name", "lsbNumber", "internalSportsclubId", "association"]);
@@ -101,28 +103,28 @@ describe("Sportsclub", () => {
 });
 
 // this test can only run if the previous test was successful and the allSeasonId is available
-if (allSeasonMatchSeriesId.length > 0) {
-	describe("Rankings", () => {
-		test("Test if the rankings RPC is working.", async () => {
+describe("Rankings", () => {
+	test("Test if the rankings RPC is working.", async () => {
+			if (allSeasonMatchSeriesId.length > 0) {
 			// test value from previous test
 			expect(allSeasonMatchSeriesId).toBeString();
 
 			const data = await sams.rankings({ allSeasonMatchSeriesId: allSeasonMatchSeriesId });
 
 			expect(data).toBeObject();
-			expect(data).toContainKeys(["rankings", "matchSeries"]);
+			expect(data).toContainKeys(["ranking", "matchSeries"]);
 			expect(data.ranking).toBeArray();
 
 			if (data.ranking.length > 0) {
 				expect(data.matchSeries).toContainKeys(["id", "uuid", "name", "type", "updated", "season"]);
 				expect(data.matchSeries.allSeasonId).toBe(allSeasonMatchSeriesId);
 				expect(data.ranking[0]).toBeObject();
-				expect(data.ranking[0]).toContainKeys(["team", "rank", "points", "games", "wins", "draws", "losses", "goalsFor", "goalsAgainst", "goalDifference"]);
+				expect(data.ranking[0]).toContainKeys(["team", "place", "points", "matchesPlayed", "wins", "losses"]);
 				expect(data.ranking[0].team).toBeObject();
-				expect(data.ranking[0].team).toContainKeys(["id", "uuid", "name"]);
+				expect(data.ranking[0].team).toContainKeys(["id", "uuid", "name", "club"]);
 				expect(data.ranking[0].team.name).toBeString();
 				expect(data.ranking[0].team.id).toBeNumber();
 			}
+		}
 		});
 	});
-}
