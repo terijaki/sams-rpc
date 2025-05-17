@@ -8,7 +8,7 @@ import { xmlParser } from "../utils/xml-parser";
 
 const MatchesResponseSchema = z.object({
 	matches: z.object({
-		match: z.array(MatchSchema),
+		match: z.array(MatchSchema).optional().nullable(),
 	}),
 });
 
@@ -16,12 +16,17 @@ const MatchesResponseSchema = z.object({
 export type Match = z.infer<typeof MatchSchema>;
 type MatchesResponse = z.infer<typeof MatchesResponseSchema>;
 
-const DatePropSchema = z.string().refine((value) => /^\d{2}\.\d{2}\.\d{4}$/.test(value) || /^\d{4}-\d{2}-\d{2}$/.test(value), {
-	message: "Date must be in 'tt.mm.jjjj' or 'jjjj-mm-tt' format",
-});
+const DatePropSchema = z
+	.string()
+	.refine((value) => /^\d{2}\.\d{2}\.\d{4}$/.test(value) || /^\d{4}-\d{2}-\d{2}$/.test(value), {
+		message: "Date must be in 'tt.mm.jjjj' or 'jjjj-mm-tt' format",
+	});
 // query function
 type MatchesProps = SamsQuery &
-	({ matchSeriesId: string | number; allSeasonMatchSeriesId?: never } | { allSeasonMatchSeriesId: string; matchSeriesId?: never }) & {
+	(
+		| { matchSeriesId: string | number; allSeasonMatchSeriesId?: never }
+		| { allSeasonMatchSeriesId: string; matchSeriesId?: never }
+	) & {
 		teamId?: string | number;
 		before?: string;
 		after?: string;
@@ -32,7 +37,8 @@ type MatchesProps = SamsQuery &
 export async function matches(props: MatchesProps): Promise<Match[]> {
 	try {
 		// input validation
-		if (!props.matchSeriesId && !props.allSeasonMatchSeriesId) throw "Either matchSeriesId or allSeasonMatchSeriesId is required!";
+		if (!props.matchSeriesId && !props.allSeasonMatchSeriesId)
+			throw "Either matchSeriesId or allSeasonMatchSeriesId is required!";
 		const before = props.before ? DatePropSchema.parse(props.before) : undefined;
 		const after = props.after ? DatePropSchema.parse(props.after) : undefined;
 
