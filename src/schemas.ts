@@ -81,8 +81,8 @@ export const ClubSchema = z.object({
 export const TeamSchema = z.object({
 	id: z.number(),
 	uuid: z.string(),
-	seasonTeamId: z.number(),
-	placeCipher: z.number(),
+	seasonTeamId: z.number().nullable(),
+	placeCipher: z.number().nullable(),
 	name: z.string(),
 	shortName: z.string().optional().nullable(),
 	clubCode: z.string().nullable(),
@@ -128,7 +128,8 @@ export const SportsclubSchema = z.object({
 		.object({
 			main: SimpleLocationSchema.optional().nullable(),
 		})
-		.optional().nullable(),
+		.optional()
+		.nullable(),
 });
 
 export const SimpleSportsclubSchema = z.object({
@@ -161,12 +162,19 @@ export const RankingSchema = z.object({
 	ballLoseScore: z.number().optional().nullable(),
 	ballPointDifference: z.number().optional().nullable(),
 	ballQuotient: z.string().optional().nullable(),
-	resultTypes: z.array(
-		z.object({
-			result: z.string().regex(/^(\d+):(\d+)$/).optional().nullable(),
-			count: z.number().optional().nullable(),
-		})
-	).optional().nullable(),
+	resultTypes: z
+		.array(
+			z.object({
+				result: z
+					.string()
+					.regex(/^(\d+):(\d+)$/)
+					.optional()
+					.nullable(),
+				count: z.number().optional().nullable(),
+			}),
+		)
+		.optional()
+		.nullable(),
 });
 
 export const RankingsSchemaContent = z.object({
