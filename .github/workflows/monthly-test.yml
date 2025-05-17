@@ -10,6 +10,9 @@ jobs:
   test:
     name: Run Tests
     runs-on: ubuntu-latest
+    env:
+      SAMS_API_KEY: ${{ secrets.SAMS_API_KEY }}
+      SAMS_SERVER: ${{ secrets.SAMS_SERVER }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
