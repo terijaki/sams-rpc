@@ -230,5 +230,12 @@ export const MatchSchema = z.object({
 			if (val === undefined || val === null) return null;
 			return Number.isNaN(Number(val)) ? null : Number(val);
 		}),
-	netDuration: z.number({ coerce: true }).optional().nullable(),
+	netDuration: z
+		.number({ coerce: true })
+		.optional()
+		.nullable()
+		.transform((val) => {
+			if (val === undefined || val === null) return null;
+			return Number.isNaN(Number(val)) ? null : Number(val);
+		}),
 });
