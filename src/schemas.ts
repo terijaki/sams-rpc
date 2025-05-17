@@ -221,7 +221,7 @@ export const MatchSchema = z.object({
 	matchSeries: MatchSeriesSchema,
 	location: LocationSchema,
 	referees: z.any().optional().nullable(),
-	results: ResultsSchema,
+	results: ResultsSchema.optional().nullable(),
 	spectators: z
 		.any()
 		.optional()
