@@ -223,7 +223,7 @@ export const MatchSchema = z.object({
 	referees: z.any().optional().nullable(),
 	results: ResultsSchema,
 	spectators: z
-		.number({ coerce: true })
+		.any()
 		.optional()
 		.nullable()
 		.transform((val) => {
@@ -231,7 +231,7 @@ export const MatchSchema = z.object({
 			return Number.isNaN(Number(val)) ? null : Number(val);
 		}),
 	netDuration: z
-		.number({ coerce: true })
+		.any()
 		.optional()
 		.nullable()
 		.transform((val) => {

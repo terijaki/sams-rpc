@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { sams, type MatchSeries, type Season, type SimpleSportsClub } from "..";
+import { type MatchSeries, type Season, type SimpleSportsClub, sams } from "..";
 
 // variables to use across different tests
 let matchSeries: MatchSeries[] = [];
@@ -15,7 +15,19 @@ describe("Match Series", () => {
 		const data = await sams.matchSeries({});
 		expect(data).toBeArray();
 		expect(data[0]).toBeObject();
-		expect(data[0]).toContainKeys(["id", "uuid", "allSeasonId", "name", "type", "updated", "structureUpdated", "resultsUpdated", "season", "hierarchy", "association"]);
+		expect(data[0]).toContainKeys([
+			"id",
+			"uuid",
+			"allSeasonId",
+			"name",
+			"type",
+			"updated",
+			"structureUpdated",
+			"resultsUpdated",
+			"season",
+			"hierarchy",
+			"association",
+		]);
 		// store data for subsequent tests
 		matchSeries = data;
 		seasonId = data[0].season.id;
@@ -57,7 +69,7 @@ describe("Sportsclub List", () => {
 		// pick a club at random. this makes the test fuzzy.
 		const randomArrayEntry = Math.floor(Math.random() * data.length);
 		// const randomClub = data[randomArrayEntry];
-		const randomClub = data[randomArrayEntry]
+		const randomClub = data[randomArrayEntry];
 		console.log(`Random Club used for testing: ${randomClub.name} (${randomClub.association?.name})`);
 
 		expect(randomClub).toBeObject();
@@ -87,17 +99,18 @@ describe("Sportsclub", () => {
 		expect(data.name).toBe(sportsclubName);
 
 		// teams can be either null or a team array
-		 if (!data.teams) {
+		if (!data.teams) {
 			expect(data.teams).toBeNull();
 		} else {
 			expect(data.teams).toBeObject();
 			expect(data.teams.team).toBeArray();
-			const firstTeam = data.teams.team[0];
-				expect(firstTeam).toBeObject();
-				expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries"]);
-				expect(firstTeam.matchSeries).toContainKeys(["allSeasonId"]);
-				// store the allSeasonId for later use
-				allSeasonMatchSeriesId = firstTeam.matchSeries.allSeasonId;
+			const randomTeam = Math.floor(Math.random() * data.teams.team.length);
+			const firstTeam = data.teams.team[randomTeam];
+			expect(firstTeam).toBeObject();
+			expect(firstTeam).toContainKeys(["id", "uuid", "seasonTeamId", "name", "matchSeries"]);
+			expect(firstTeam.matchSeries).toContainKeys(["allSeasonId"]);
+			// store the allSeasonId for later use
+			allSeasonMatchSeriesId = firstTeam.matchSeries.allSeasonId;
 		}
 	});
 });
@@ -105,7 +118,7 @@ describe("Sportsclub", () => {
 // this test can only run if the previous test was successful and the allSeasonId is available
 describe("Rankings", () => {
 	test("Test if the rankings RPC is working.", async () => {
-			if (allSeasonMatchSeriesId.length > 0) {
+		if (allSeasonMatchSeriesId.length > 0) {
 			// test value from previous test
 			expect(allSeasonMatchSeriesId).toBeString();
 
@@ -125,9 +138,29 @@ describe("Rankings", () => {
 				expect(data.ranking[0].team.name).toBeString();
 				expect(data.ranking[0].team.id).toBeNumber();
 				expect(data.ranking[0].team.club).toBeObject();
-				expect(data.ranking[0].team.club).toContainKeys(["id", "name"]);
+				expect(data.ranking[0].team.club).toContainKeys(["name"]);
 				expect(data.ranking[0].team.club.name).toBeString();
 			}
 		}
-		});
 	});
+});
+
+// this test can only run if the previous test was successful and the allSeasonId is available
+describe("Matches", () => {
+	test("Test if the matches RPC is working.", async () => {
+		if (allSeasonMatchSeriesId.length > 0) {
+			// test value from previous test
+			expect(allSeasonMatchSeriesId).toBeString();
+
+			const data = await sams.matches({ allSeasonMatchSeriesId: allSeasonMatchSeriesId });
+
+			expect(data).toBeArray();
+			const randomMatch = Math.floor(Math.random() * data.length);
+			const randomMatchData = data[randomMatch];
+			expect(randomMatchData).toContainKeys(["id", "uuid", "date", "team"]);
+			expect(randomMatchData.team).toBeArray();
+			expect(randomMatchData.team[0]).toBeObject();
+			expect(randomMatchData.team[0]).toContainKeys(["id", "uuid", "name", "club"]);
+		}
+	});
+});
