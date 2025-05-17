@@ -42,8 +42,15 @@ export async function seasons(props?: SamsQuery): Promise<Season[]> {
 		// validate Json
 		const validatedJson: Season[] = SeasonsResponseSchema.parse(json).seasons.season;
 
+		// sort json by begin date (descending - most recent/future dates first)
+		const sortedSeason = validatedJson.sort((a, b) => {
+			const dateA = new Date(a.begin);
+			const dateB = new Date(b.begin);
+			return dateB.getTime() - dateA.getTime(); // Reversed comparison order
+		});
+
 		// return json
-		return validatedJson;
+		return sortedSeason;
 	} catch (error) {
 		console.error("Error fetching seasons:", error);
 		throw error;
