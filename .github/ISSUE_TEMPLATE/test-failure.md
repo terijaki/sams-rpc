@@ -1,6 +1,6 @@
 ---
-title: "Test Suite Failure on {{ env.TEST_DATE }}"
-labels: bug, test-failure
+title: Test Suite Failure
+labels: test-failure
 ---
 
 ## Test Suite Failed
