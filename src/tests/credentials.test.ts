@@ -6,8 +6,10 @@ describe("Credentials check", () => {
 	test("Test if the environmental variables pass the credentials check.", () => {
 		const { apiKey, serverUrl } = verifyCredentials();
 		expect(apiKey).toBeString();
+		// biome-ignore lint/style/noNonNullAssertion: env secret
 		expect(apiKey).toBe(process.env.SAMS_API_KEY!);
 		expect(serverUrl).toBeString();
+		// biome-ignore lint/style/noNonNullAssertion: env secret
 		expect(serverUrl).toBe(process.env.SAMS_SERVER!);
 	});
 	test("Test if the credentials check work with enums.", () => {

@@ -7,9 +7,12 @@ import { xmlParser } from "../utils/xml-parser";
 // Define the Zod schemas
 
 const MatchesResponseSchema = z.object({
-	matches: z.object({
-		match: z.array(MatchSchema).optional().nullable(),
-	}),
+	matches: z
+		.object({
+			match: z.array(MatchSchema).optional().nullable(),
+		})
+		.optional()
+		.nullable(),
 });
 
 // Infer types from Zod schemas
@@ -67,7 +70,7 @@ export async function matches(props: MatchesProps): Promise<Match[]> {
 		const json: MatchesResponse = xmlParser.parse(xmlData);
 
 		// validate Json
-		const validatedJson: Match[] = MatchesResponseSchema.parse(json).matches.match || [];
+		const validatedJson: Match[] = MatchesResponseSchema.parse(json).matches?.match || [];
 
 		// return matches array
 		return validatedJson;
