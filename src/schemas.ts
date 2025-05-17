@@ -74,9 +74,9 @@ export const ClubSchema = z.object({
 	name: z.string(),
 	id: z.number(),
 	shortName: z.string().nullable(),
-	logo: LogoSchema.optional(),
-	www: z.string().optional(),
-	wwwDepartment: z.string().optional(),
+	logo: LogoSchema.optional().nullable(),
+	www: z.string().optional().nullable(),
+	wwwDepartment: z.string().optional().nullable(),
 });
 export const TeamSchema = z.object({
 	id: z.number(),
@@ -87,8 +87,8 @@ export const TeamSchema = z.object({
 	shortName: z.string().optional().nullable(),
 	clubCode: z.string().nullable(),
 	status: z.string(),
-	www: z.string().optional(),
-	logo: LogoSchema.optional(),
+	www: z.string().optional().nullable(),
+	logo: LogoSchema.optional().nullable(),
 	club: z.object({
 		name: z.string(),
 		shortName: z.string().optional().nullable(),
@@ -163,8 +163,8 @@ export const RankingSchema = z.object({
 	ballQuotient: z.string().optional().nullable(),
 	resultTypes: z.array(
 		z.object({
-			result: z.string().regex(/^(\d+):(\d+)$/),
-			count: z.number(),
+			result: z.string().regex(/^(\d+):(\d+)$/).optional().nullable(),
+			count: z.number().optional().nullable(),
 		})
 	).optional().nullable(),
 });
