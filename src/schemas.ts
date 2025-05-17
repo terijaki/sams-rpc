@@ -171,7 +171,7 @@ export const RankingSchema = z.object({
 
 export const RankingsSchemaContent = z.object({
 	matchSeries: MatchSeriesSchema,
-	ranking: z.array(RankingSchema),
+	ranking: z.array(RankingSchema).optional(),
 });
 
 export const HostSchema = z.object({

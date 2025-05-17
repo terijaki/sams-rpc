@@ -112,10 +112,10 @@ describe("Rankings", () => {
 			const data = await sams.rankings({ allSeasonMatchSeriesId: allSeasonMatchSeriesId });
 
 			expect(data).toBeObject();
-			expect(data).toContainKeys(["ranking", "matchSeries"]);
+			expect(data).toContainKeys(["matchSeries"]);
 			expect(data.ranking).toBeArray();
 
-			if (data.ranking.length > 0) {
+			if (data.ranking && data.ranking.length > 0) {
 				expect(data.matchSeries).toContainKeys(["id", "uuid", "name", "type", "updated", "season"]);
 				expect(data.matchSeries.allSeasonId).toBe(allSeasonMatchSeriesId);
 				expect(data.ranking[0]).toBeObject();
@@ -124,6 +124,9 @@ describe("Rankings", () => {
 				expect(data.ranking[0].team).toContainKeys(["id", "uuid", "name", "club"]);
 				expect(data.ranking[0].team.name).toBeString();
 				expect(data.ranking[0].team.id).toBeNumber();
+				expect(data.ranking[0].team.club).toBeObject();
+				expect(data.ranking[0].team.club).toContainKeys(["id", "name"]);
+				expect(data.ranking[0].team.club.name).toBeString();
 			}
 		}
 		});
