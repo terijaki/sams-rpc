@@ -102,10 +102,13 @@ export const SimpleTeamSchema = z.object({
 	name: z.string(),
 	shortName: z.string().optional().nullable(),
 	clubCode: z.string().optional().nullable(),
-	club: z.object({
-		name: z.string().optional(),
-		shortName: z.string().optional().nullable(),
-	}),
+	club: z.union([
+		z.string(),
+		z.object({
+			name: z.string().optional(),
+			shortName: z.string().optional().nullable(),
+		}).transform(obj => obj.name || "")
+	]),
 });
 
 export const MatchOperationCompanySchema = z.object({

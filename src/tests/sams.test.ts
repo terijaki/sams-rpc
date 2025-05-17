@@ -139,7 +139,7 @@ describe("Rankings", () => {
 				expect(data.ranking[0].team.id).toBeNumber();
 				expect(data.ranking[0].team.club).toBeObject();
 				expect(data.ranking[0].team.club).toContainKeys(["name"]);
-				expect(data.ranking[0].team.club.name).toBeString();
+				expect(data.ranking[0].team.club).toBeString();
 			}
 		}
 	});
