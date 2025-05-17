@@ -26,10 +26,9 @@ export async function sportsclub(props: SportsclubProps): Promise<Sportsclub> {
 		let requiredParams = "";
 		if (props?.sportsclubId) requiredParams += `&sportsclubId=${props.sportsclubId}`;
 
-		// fetch remove data
+		// fetch sportsclub data
 		const api = await fetch(`${serverUrl}/xml/sportsclub.xhtml?apiKey=${apiKey}${requiredParams}`);
 		const xmlData = await api.text();
-		console.warn("XML Data:", xmlData);
 
 		// check if the resonse includes an error
 		if (xmlData.includes("<error>")) throw "Error fetching data from SAMS server.";
