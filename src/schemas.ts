@@ -24,7 +24,7 @@ export const SeasonSchema = z.object({
 });
 
 export const AssociationSchema = z.object({
-	name: z.string(),
+	name: z.string().nullable(),
 	shortName: z.string().optional().nullable(),
 });
 
@@ -178,7 +178,7 @@ export const HostSchema = z.object({
 	id: z.number(),
 	uuid: z.string(),
 	name: z.string(),
-	club: z.string(),
+	club: z.string().nullable(),
 });
 
 export const ResultsSchema = z.object({
