@@ -146,27 +146,27 @@ export const SimpleSportsclubSchema = z.object({
 
 export const RankingSchema = z.object({
 	team: SimpleTeamSchema,
-	place: z.number(),
-	matchesPlayed: z.number(),
-	wins: z.number(),
-	losses: z.number(),
-	points: z.number(),
-	setPoints: z.string(),
-	setWinScore: z.number(),
-	setLoseScore: z.number(),
-	setPointDifference: z.number(),
-	setQuotient: z.string(),
-	ballPoints: z.string(),
-	ballWinScore: z.number(),
-	ballLoseScore: z.number(),
-	ballPointDifference: z.number(),
-	ballQuotient: z.string(),
+	place: z.number().optional().nullable(),
+	matchesPlayed: z.number().optional().nullable(),
+	wins: z.number().optional().nullable(),
+	losses: z.number().optional().nullable(),
+	points: z.number().optional().nullable(),
+	setPoints: z.string().optional().nullable(),
+	setWinScore: z.number().optional().nullable(),
+	setLoseScore: z.number().optional().nullable(),
+	setPointDifference: z.number().optional().nullable(),
+	setQuotient: z.string().optional().nullable(),
+	ballPoints: z.string().optional().nullable(),
+	ballWinScore: z.number().optional().nullable(),
+	ballLoseScore: z.number().optional().nullable(),
+	ballPointDifference: z.number().optional().nullable(),
+	ballQuotient: z.string().optional().nullable(),
 	resultTypes: z.array(
 		z.object({
 			result: z.string().regex(/^(\d+):(\d+)$/),
 			count: z.number(),
 		})
-	),
+	).optional().nullable(),
 });
 
 export const RankingsSchemaContent = z.object({
