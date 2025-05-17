@@ -119,7 +119,7 @@ export const SportsclubSchema = z.object({
 	id: z.number(),
 	name: z.string(),
 	logo: LogoSchema.nullable(),
-	lsbNumber: z.union([z.string(), z.number()]).optional(),
+	lsbNumber: z.union([z.string(), z.number()]).optional().nullable(),
 	internalSportsclubId: z.union([z.string(), z.number()]).optional().nullable(),
 	association: AssociationSchema.optional(),
 	matchOperationCompany: MatchOperationCompanySchema,
@@ -134,7 +134,7 @@ export const SportsclubSchema = z.object({
 export const SimpleSportsclubSchema = z.object({
 	id: z.number(),
 	name: z.string(),
-	lsbNumber: z.union([z.string(), z.number()]).optional(),
+	lsbNumber: z.union([z.string(), z.number()]).optional().nullable(),
 	internalSportsclubId: z.union([z.string(), z.number()]).optional(),
 	association: z
 		.object({
