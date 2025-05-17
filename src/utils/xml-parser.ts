@@ -7,7 +7,7 @@ export const xmlParser = new XMLParser({
 	ignorePiTags: true,
 	isArray: (name, path) => {
 		// Define paths that should always be arrays
-		const arrayPaths = ["teams.team", "matches.match", "rankings.ranking", "sportsclub.teams.team"];
+		const arrayPaths = ["teams.team", "matches.match", "rankings.ranking","rankings.ranking.team.club", "sportsclub.teams.team"];
 		return arrayPaths.includes(path);
 	},
 });
