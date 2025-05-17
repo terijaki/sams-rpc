@@ -3,10 +3,10 @@ import { type MatchSeries, type Season, type SimpleSportsClub, sams } from "..";
 
 // variables to use across different tests
 let matchSeries: MatchSeries[] = [];
-let seasonId = 0;
+let seasonId = "";
 let seasosn: Season[];
 let sportsclubList: SimpleSportsClub[] = [];
-let sportsclubId: SimpleSportsClub["id"] = 0;
+let sportsclubId: SimpleSportsClub["id"] = "";
 let sportsclubName: SimpleSportsClub["name"] = "";
 let allSeasonMatchSeriesId: MatchSeries["allSeasonId"] = "";
 
@@ -35,8 +35,8 @@ describe("Match Series", () => {
 
 	test("Test if the match series RPC is working with a seasonId.", async () => {
 		// test value from previous test
-		expect(seasonId).toBeNumber();
-		expect(seasonId).toBeGreaterThan(0);
+		expect(seasonId).toBeString();
+		expect(seasonId.length).toBeGreaterThan(0);
 
 		const data = await sams.matchSeries({ seasonId: seasonId });
 		expect(data).toBeArray();
@@ -48,9 +48,12 @@ describe("Seasons", () => {
 	test("Test if the seasons RPC is working.", async () => {
 		const data = await sams.seasons({});
 		expect(data).toBeArray();
-		expect(data[0]).toBeObject();
-		expect(data[0]).toContainKeys(["id", "name", "begin", "end"]);
-		expect(data[0].id).toBeNumber();
+		const randomArrayEntry = Math.floor(Math.random() * data.length);
+		const randomSeason = data[randomArrayEntry];
+		expect(randomSeason).toBeObject();
+		expect(randomSeason).toContainKeys(["id", "name", "begin", "end"]);
+		expect(randomSeason.id).toBeString();
+		expect(randomSeason.id.length).toBeGreaterThan(0);
 
 		// store data for subsequent tests
 		seasosn = data;
@@ -74,7 +77,8 @@ describe("Sportsclub List", () => {
 
 		expect(randomClub).toBeObject();
 		expect(randomClub).toContainKeys(["id", "name", "lsbNumber", "internalSportsclubId", "association"]);
-		expect(randomClub.id).toBeNumber();
+		expect(randomClub.id).toBeString();
+		expect(randomClub.id.length).toBeGreaterThan(0);
 		expect(randomClub.name).toBeString();
 
 		// store data for subsequent tests
@@ -87,8 +91,8 @@ describe("Sportsclub List", () => {
 describe("Sportsclub", () => {
 	test("Test if the sportsclub RPC is working.", async () => {
 		// test value from previous test
-		expect(sportsclubId).toBeNumber();
-		expect(sportsclubId).toBeGreaterThan(0);
+		expect(sportsclubId).toBeString();
+		expect(sportsclubId.length).toBeGreaterThan(0);
 		expect(sportsclubName).toBeString();
 
 		const data = await sams.sportsclub({ sportsclubId: sportsclubId });
@@ -136,7 +140,8 @@ describe("Rankings", () => {
 				expect(data.ranking[0].team).toBeObject();
 				expect(data.ranking[0].team).toContainKeys(["id", "uuid", "name", "club"]);
 				expect(data.ranking[0].team.name).toBeString();
-				expect(data.ranking[0].team.id).toBeNumber();
+				expect(data.ranking[0].team.id).toBeString();
+				expect(data.ranking[0].team.id.length).toBeGreaterThan(0);
 				expect(data.ranking[0].team.club).toBeString();
 			}
 		}

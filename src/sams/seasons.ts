@@ -1,11 +1,12 @@
 import { z } from "zod";
+import { SamsIdSchema } from "../schemas";
 import type { SamsQuery } from "../types";
 import { verifyCredentials } from "../utils/credentials";
 import { xmlParser } from "../utils/xml-parser";
 
 // Season item schema
 const SeasonSchema = z.object({
-	id: z.number(),
+	id: SamsIdSchema,
 	name: z.string(),
 	begin: z.string().regex(/^\d{4}-\d{2}-\d{2}$/), // YYYY-MM-DD format
 	end: z.string().regex(/^\d{4}-\d{2}-\d{2}$/), // YYYY-MM-DD format
