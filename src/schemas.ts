@@ -15,7 +15,19 @@ const StringOrNullSchema = z.any().transform((val) => {
 	if (!val) return null;
 	return String(val);
 });
-const UrlSchema = z.string().url().optional().nullable();
+const UrlSchema = z
+	.string()
+	.transform((val) => {
+		if (!val || val === "") return null;
+		try {
+			new URL(val);
+			return val;
+		} catch {
+			return null;
+		}
+	})
+	.optional()
+	.nullable();
 const ClubNameSchema = z
 	.union([
 		z.any(),
