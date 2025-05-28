@@ -1,842 +1,692 @@
 [
-	{
-		"id": 72614471,
-		"uuid": "10f1d39b-6cea-4c32-848f-44fb7f22e780",
-		"seasonTeamId": 72614471,
-		"placeCipher": 7,
-		"name": "1. VC Parchim",
-		"shortName": "Parchim",
-		"clubCode": "",
-		"status": "ACTIVE",
-		"www": "",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/20c4b193-edf7-40d2-a7af-b3ae39274e1c/1.+VC+Parchim+-+Kopie.jpg"
-		},
-		"club": {
-			"name": "1. VC Parchim",
-			"id": 1065645,
-			"shortName": "VCP",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/20c4b193-edf7-40d2-a7af-b3ae39274e1c/1.+VC+Parchim+-+Kopie.jpg"
-			},
-			"www": "",
-			"wwwDepartment": ""
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137388,
-		"uuid": "e56e9400-f8b6-4e56-97ba-83d33df3c20d",
-		"seasonTeamId": 70137388,
-		"placeCipher": 8,
-		"name": "BBSC Berlin 2",
-		"shortName": "BBSC 2",
-		"clubCode": "BBSC",
-		"status": "ACTIVE",
-		"www": "http://www.wirgewinnen.com",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/5f6f273e-be2e-48fe-b230-2622830a0ec9/BBSC-Berlin_rund.png"
-		},
-		"club": {
-			"name": "BBSC e.V.",
-			"id": 6335,
-			"shortName": "BBSC",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/760d528e-797b-4c17-b732-736972a86fdd/BBSC-Berlin_rund.png"
-			},
-			"www": "http://www.berlin-bsc.de",
-			"wwwDepartment": "http://www.wirgewinnen.com"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 72614359,
-		"uuid": "2a7eb91d-9455-457c-96b3-db255baf16dd",
-		"seasonTeamId": 72614359,
-		"placeCipher": 2,
-		"name": "Berliner VV",
-		"shortName": "Berliner VV",
-		"clubCode": "BVV",
-		"status": "ACTIVE",
-		"www": "http://www.berliner-vv.de",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/d232b752-9d3b-41d1-8823-692872d8c89c/BV-Vorwaerts_rund.png"
-		},
-		"club": {
-			"name": "Berliner Volleyballverein Vorwärts e.V.",
-			"id": 6382,
-			"shortName": "BVV",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/3a687371-a5ff-4ac3-ad66-a8f328b7fb7d/Logo_BVV_original_farbe-279x300.png"
-			},
-			"www": "http://www.berliner-vv.de",
-			"wwwDepartment": ""
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137453,
-		"uuid": "d8bb947f-51cb-4724-991e-23f2c7f7da1e",
-		"seasonTeamId": 70137453,
-		"placeCipher": 4,
-		"name": "Eimsbütteler TV 2",
-		"shortName": "Eimsbüttel TV",
-		"clubCode": "ETV",
-		"status": "ACTIVE",
-		"www": "http://www.etvvolleyball.de",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/54da53c7-ff8a-4552-a542-e6baec7570a1/ETV_Logo_NEU.png"
-		},
-		"club": {
-			"name": "Eimsbütteler Turnverband e.V.",
-			"id": 1062265,
-			"shortName": "ETV",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/c0155d90-a696-4081-bdc9-b832164f7284/ETV-MARKE-h_rgb_pos.png"
-			},
-			"www": "http://web.etv.hamburg",
-			"wwwDepartment": "http://www.etvvolleyball.de"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137432,
-		"uuid": "a5826ce4-037a-4cd5-a1fc-fb74e7430363",
-		"seasonTeamId": 70137432,
-		"placeCipher": 9,
-		"name": "Grün-Weiß Eimsbüttel",
-		"shortName": "GW Eimsbüttel",
-		"clubCode": "EIM",
-		"status": "ACTIVE",
-		"www": "https://gwevolleyball.de/damen/1-damen-dritteliga",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/1e0f490c-ae3e-422e-aa09-03935b89ad57/GWE.jpg"
-		},
-		"club": {
-			"name": "Sportverein Grün-Weiß Eimsbüttel von 1901 e.V.",
-			"id": 1065723,
-			"shortName": "GWE",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/3984e009-1adc-4de0-bd84-74f0ac6718f5/gwe-logo.jpg"
-			},
-			"www": "http://www.gweimsbuettel.de",
-			"wwwDepartment": "http://www.gwevolleyball.de"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137425,
-		"uuid": "01538324-b9d3-405a-9411-ebfee2d8be6f",
-		"seasonTeamId": 70137425,
-		"placeCipher": 5,
-		"name": "SG Einheit Zepernick",
-		"shortName": "SGE Zepernick",
-		"clubCode": "ZEP",
-		"status": "ACTIVE",
-		"www": "https://www.volleyball-in-panketal.de/dritte-liga-nord",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/20cb82d2-ee0e-4c25-bd89-1791e73c0bec/ECA01802-B2CB-45AB-85A0-87AC161BB01E.jpeg"
-		},
-		"club": {
-			"name": "SG Einheit Zepernick",
-			"id": 16610332,
-			"shortName": "EiZep",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/c4c38ce1-d50b-4cc8-b69e-2a290136177a/LOGO-SGEZ.jpg"
-			},
-			"www": "http://www.einheit-zepernick.de",
-			"wwwDepartment": "http://www.volleyball-in-panketal.de"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137438,
-		"uuid": "3c7671ba-8ce6-42b7-aa8a-5b924bb56fe1",
-		"seasonTeamId": 70137438,
-		"placeCipher": 1,
-		"name": "SG Rot. Prenzlauer Berg",
-		"shortName": "Prenzlauer Berg",
-		"clubCode": "ROT",
-		"status": "ACTIVE",
-		"www": "http://www.rpb-berlin.de",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/f1c6f9de-d6ac-4fac-b1bf-c22f0d79767b/SG-Rotation-Prenzlauer-Berg_1.png"
-		},
-		"club": {
-			"name": "Sportgemeinschaft Rotation Prenzlauer Berg e.V.",
-			"id": 6337,
-			"shortName": "RPB",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/ac75d976-7538-405a-9aef-91ab3d84410c/logo+rpb.jpg"
-			},
-			"www": "http://www.rpb-berlin.de",
-			"wwwDepartment": "http://www.rpb-berlin.de"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 72614473,
-		"uuid": "e36794c4-4049-48f3-b479-4ef7089293ce",
-		"seasonTeamId": 72614473,
-		"placeCipher": 6,
-		"name": "SV Warnemünde",
-		"shortName": "Warnemünde",
-		"clubCode": "",
-		"status": "ACTIVE",
-		"www": "http://www.svw-vb.de",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/19216ff2-5238-49d8-a5d5-49c5cf58fbdb/SVW_1949_Logo_2019.png"
-		},
-		"club": {
-			"name": "SV Warnemünde 1949 e. V.",
-			"id": 6318,
-			"shortName": "",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/19216ff2-5238-49d8-a5d5-49c5cf58fbdb/SVW_1949_Logo_2019.png"
-			},
-			"www": "https://svwarnemuende.de",
-			"wwwDepartment": "https://www.svw-vb.de"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137447,
-		"uuid": "a44e65bd-520c-4e2b-b184-0861567e5286",
-		"seasonTeamId": 70137447,
-		"placeCipher": 3,
-		"name": "USV Halle Hurricanes",
-		"shortName": "USV Halle",
-		"clubCode": "HAL",
-		"status": "ACTIVE",
-		"www": "http://www.usv-volley.de/?Mannschaften___Damen___1__Damen",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/fb945a1f-502a-490c-b4e5-29bde8f9c1e5/USV-Halle_Hurricanes_rund.png"
-		},
-		"club": {
-			"name": "Universitätssportverein Halle e.V.",
-			"id": 16610301,
-			"shortName": "USV",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/17617d76-3d10-42e7-802a-43221968aaaa/2015-08-20_1421.png"
-			},
-			"www": "https://volleyball.usvhalle.de/",
-			"wwwDepartment": ""
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	},
-	{
-		"id": 70137397,
-		"uuid": "0dc5fdfd-d12e-4ce0-830a-e143ed5c0a3f",
-		"seasonTeamId": 70137397,
-		"placeCipher": 10,
-		"name": "USV Potsdam",
-		"shortName": "USV Potsdam",
-		"clubCode": "USVP",
-		"status": "ACTIVE",
-		"www": "http://www.usv-potsdam-volleyball.de",
-		"logo": {
-			"url": "https://www.volleyball-baden.de/uploads/21937115-cc8b-4dc8-9375-02e0b79f179b/USV-Potsdam-Volleyball_1.png"
-		},
-		"club": {
-			"name": "USV Potsdam",
-			"id": 13897080,
-			"shortName": "USVPd",
-			"logo": {
-				"url": "https://www.volleyball-baden.de/uploads/4825e17f-822e-46ad-ace4-3d9bfec1d4dd/USV-Logo.png"
-			},
-			"www": "http://www-usv-potsdam.de",
-			"wwwDepartment": "http://www.usv-potsdam-volleyball.de"
-		},
-		"matchSeries": {
-			"id": 70137358,
-			"uuid": "b1876a3a-aafe-488c-8fcb-15e7ce864fdc",
-			"allSeasonId": "42b97d58-e625-c49d-468c-8804db710db3",
-			"name": "Dritte Liga Nord Frauen",
-			"shortName": "DLN F",
-			"type": "League",
-			"updated": "2025-04-13 00:20:41.089",
-			"structureUpdated": "2025-04-13 00:20:41.089",
-			"resultsUpdated": "2025-03-30 18:09:57.646",
-			"season": {
-				"id": 70098350,
-				"uuid": "d68be217-1d72-4895-9a85-4be09715258d",
-				"name": "2024/25"
-			},
-			"hierarchy": {
-				"id": 70137314,
-				"name": "Dritte Liga Nord Frauen",
-				"shortName": "DLNF",
-				"hierarchyLevel": 4
-			},
-			"fullHierarchy": {
-				"hierarchy": [
-					{
-						"id": 70137314,
-						"name": "Dritte Liga Nord Frauen",
-						"shortName": "DLNF",
-						"hierarchyLevel": 4
-					},
-					{
-						"id": 70137151,
-						"name": "Dritte Liga Nord",
-						"shortName": "DLN",
-						"hierarchyLevel": 3
-					},
-					{
-						"id": 70137150,
-						"name": "Bereich 2.BL Nord",
-						"shortName": "Nord",
-						"hierarchyLevel": 2
-					},
-					{
-						"id": 70137149,
-						"name": "Dritte Liga",
-						"shortName": "DL",
-						"hierarchyLevel": 1
-					},
-					{
-						"id": 70137148,
-						"name": "Deutscher Volleyball-Verband",
-						"shortName": "DVV",
-						"hierarchyLevel": 0
-					}
-				]
-			},
-			"association": {
-				"name": "Dritte Liga Nord",
-				"shortName": "DL N"
-			}
-		}
-	}
+  {
+    "id": "73349557",
+    "uuid": "3d6b9adf-0dc2-49dc-876c-4a005f416b0a",
+    "seasonTeamId": "73349557",
+    "placeCipher": 1,
+    "name": "Bad Säckinger Wölfe",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": null,
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/69210052-2b66-456a-80bb-e34d59b7c49f/Logo+Bad_S%C3%A4ckingen.jpg"
+    },
+    "club": "TV Bad Säckingen",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349525",
+    "uuid": "087bcb12-62cd-459e-88ee-1343b21fff34",
+    "seasonTeamId": "73349525",
+    "placeCipher": 6,
+    "name": "FT 1844 Freiburg 4",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "https://ft1844-freiburg.de/volleyball",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/929b0f9f-d03e-4be2-a8b3-fc36de1c7bbc/Logo+Freiburg.png"
+    },
+    "club": "FT 1844 Freiburg",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349551",
+    "uuid": "4f2d65c6-b7f7-4ab3-a141-1feedb3ce0ac",
+    "seasonTeamId": "73349551",
+    "placeCipher": 9,
+    "name": "SG BEG United 2",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "https://www.tbe1844.de/volleyball/mannschaften/herren-2/",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/88419c63-3ed2-4e78-89f8-5314e5fbbe17/Logo+TBE+1.png"
+    },
+    "club": "TB Emmendingen",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349554",
+    "uuid": "05640b90-239f-4738-aade-96c68a7f1e86",
+    "seasonTeamId": "73349554",
+    "placeCipher": 3,
+    "name": "Südbaden-Auswahl",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": null,
+    "logo": {
+      "url": null
+    },
+    "club": "Südbadenauswahl",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349543",
+    "uuid": "11ec2c59-48e3-401b-ace3-0262251a5305",
+    "seasonTeamId": "73349543",
+    "placeCipher": 2,
+    "name": "TB Bad Krozingen",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "http://www.turnerbund-bk.de/",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/f109e5a6-198c-432f-af42-aee23d1655ff/TBK_Logo.jpg"
+    },
+    "club": "TB Bad Krozingen",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349547",
+    "uuid": "447ad96d-f886-4b5b-bee4-ed76c5c2962a",
+    "seasonTeamId": "73349547",
+    "placeCipher": 8,
+    "name": "TSV Alemannia Freiburg-Zähringen 1",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "https://volleyball-zaehringen.de/",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/7c4bda8d-9bdd-4a5e-817c-47061204dfe5/Vereinslogo.jpg"
+    },
+    "club": "TSV Alemannia Freiburg-Zähringen",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349531",
+    "uuid": "33b47143-b56d-4cb1-94d1-54f6d6c415c7",
+    "seasonTeamId": "73349531",
+    "placeCipher": 10,
+    "name": "TV Kappelrodeck 2",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "http://www.tv-kappelrodeck.de",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/02403c25-9e47-47fe-988e-9d0e5df36bb4/IMG_6520.jpeg"
+    },
+    "club": "TV Kappelrodeck",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349539",
+    "uuid": "c5acdb80-aaab-4e7d-9f0d-0447b6ba37d0",
+    "seasonTeamId": "73349539",
+    "placeCipher": 4,
+    "name": "TV Kollnau-Gutach 1",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "https://www.tvkollnaugutach.de/volleyball/1-herren/1-herrenmanschaft.html",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/b25a52b5-13f0-47b8-a2f2-5474f4f2fe87/Logo_Volleyball_TVKG.jpg"
+    },
+    "club": "TV Kollnau-Gutach",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349528",
+    "uuid": "103ede37-4f7a-48bf-95b8-edbcfb3604fc",
+    "seasonTeamId": "73349528",
+    "placeCipher": 7,
+    "name": "VC Müllheim 1",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "http://vcmuellheim.de",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/a939d151-0490-455c-870d-417f5b40e906/muellheim_logo.png"
+    },
+    "club": "VC Müllheim",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  },
+  {
+    "id": "73349535",
+    "uuid": "d749145f-4492-4ae4-867e-39689506efb9",
+    "seasonTeamId": "73349535",
+    "placeCipher": 5,
+    "name": "VC Weil 2",
+    "shortName": "",
+    "clubCode": null,
+    "status": "ACTIVE",
+    "www": "http://www.vcweil.de",
+    "logo": {
+      "url": "https://www.volleyball-baden.de/uploads/c2a4128f-3331-4481-bf19-7e0975072be6/VC+Weil+Logo+JPEG+2.jpg"
+    },
+    "club": "VC Weil am Rhein",
+    "matchSeries": {
+      "id": "70100226",
+      "uuid": "d6eafbcb-61ed-4c37-8b60-f7e3e407c521",
+      "allSeasonId": "799a634e-d2b1-6639-32fb-e36ccbf44f87",
+      "name": "Landesliga West Herren",
+      "shortName": "LL w h",
+      "type": "League",
+      "updated": "2025-05-06 15:21:14.282",
+      "structureUpdated": "2025-04-14 11:09:24.876",
+      "resultsUpdated": "2025-05-06 15:21:14.282",
+      "season": {
+        "id": "70098350",
+        "uuid": "d68be217-1d72-4895-9a85-4be09715258d",
+        "name": "2024/25"
+      },
+      "hierarchy": {
+        "id": "70100181",
+        "name": "Landesligen",
+        "shortName": "ll",
+        "hierarchyLevel": 3
+      },
+      "fullHierarchy": {
+        "hierarchy": [
+          {
+            "id": "70100181",
+            "name": "Landesligen",
+            "shortName": "ll",
+            "hierarchyLevel": 3
+          },
+          {
+            "id": "70100180",
+            "name": "Verbandsligen",
+            "shortName": "vl",
+            "hierarchyLevel": 2
+          },
+          {
+            "id": "70099119",
+            "name": "Erwachsenenspielbetrieb SBVV",
+            "shortName": "SBVV Erw.",
+            "hierarchyLevel": 1
+          },
+          {
+            "id": "70098566",
+            "name": "Südbadischer Volleyball-Verband (SBVV)",
+            "shortName": "SBVV",
+            "hierarchyLevel": 0
+          }
+        ]
+      },
+      "association": {
+        "name": null,
+        "shortName": ""
+      }
+    }
+  }
 ]
