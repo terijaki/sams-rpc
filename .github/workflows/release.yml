@@ -1,12 +1,13 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - main
-      - next
-    paths-ignore:
-      - '.github/**'
+  workflow_dispatch:
+#   push:
+#     branches:
+#       - main
+#       - next
+#     paths-ignore:
+#       - '.github/**'
 
 permissions:
   contents: write

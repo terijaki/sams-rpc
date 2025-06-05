@@ -1,3 +1,5 @@
+> **⚠️ DEPRECATED**: This package is no longer maintained. SAMS depreacted their XML API in favor of a new [REST API](https://wiki.sams-server.de/wiki/REST-API-Schnittstelle). The new API comes with a swagger.json. I recommend you check out [Hey API](https://heyapi.dev) which can generate a Typesafe SDK for you based on the remote JSON.
+
 # SAMS RPC
 
 This package adds quality of live improvements when working with the SAMS-Server of the German Volleyball Association.
@@ -40,7 +42,10 @@ If you are not setting the **environmental variables** or cannot read them, you 
 sams.sportsclubList();
 
 // without .env
-sams.sportsclubList({ apiKey: "YourApiKey", serverUrl: "https://www.volleyball-baden.de" });
+sams.sportsclubList({
+  apiKey: "YourApiKey",
+  serverUrl: "https://www.volleyball-baden.de",
+});
 ```
 
 ## Example
